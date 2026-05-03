@@ -1,408 +1,464 @@
 TestID,PatientID,TestType,Date,Reason,EPRPeriod
-T843449,P00044,Imaging,2020-11-16,Duplicate,BeforeEPR
-T513136,P00054,Blood Test,2020-05-24,Duplicate,BeforeEPR
-T564094,P00056,Blood Test,2019-10-14,Duplicate,BeforeEPR
-T346498,P00070,Microbiology,2024-07-25,Duplicate,AfterEPR
-T701797,P00189,Blood Test,2022-03-02,Duplicate,AfterEPR
-T597953,P00255,Imaging,2018-01-16,Duplicate,BeforeEPR
-T948596,P00269,Imaging,2024-04-27,Duplicate,AfterEPR
-T442313,P00276,Imaging,2022-05-20,Duplicate,AfterEPR
-T303273,P00282,Microbiology,2020-04-04,Duplicate,BeforeEPR
-T639830,P00291,Microbiology,2023-03-06,Duplicate,AfterEPR
-T454822,P00318,Blood Test,2022-05-27,Duplicate,AfterEPR
-T767108,P00321,Microbiology,2019-06-03,Duplicate,BeforeEPR
-T387803,P00349,Imaging,2022-05-18,Duplicate,AfterEPR
-T907029,P00363,Blood Test,2022-03-04,Duplicate,AfterEPR
-T648642,P00379,Imaging,2019-07-14,Duplicate,BeforeEPR
-T788372,P00411,Microbiology,2023-05-16,Duplicate,AfterEPR
-T745399,P00418,Microbiology,2020-12-23,Duplicate,BeforeEPR
-T567772,P00431,Microbiology,2021-12-07,Duplicate,BeforeEPR
-T652498,P00439,Imaging,2019-02-04,Duplicate,BeforeEPR
-T937449,P00443,Imaging,2023-08-01,Duplicate,AfterEPR
-T670794,P00457,Imaging,2023-08-17,Duplicate,AfterEPR
-T864308,P00482,Imaging,2021-10-12,Duplicate,BeforeEPR
-T203096,P00487,Blood Test,2024-02-12,Duplicate,AfterEPR
-T316293,P00523,Imaging,2024-01-02,Duplicate,AfterEPR
-T563957,P00531,Imaging,2021-08-10,Duplicate,BeforeEPR
-T618029,P00548,Blood Test,2020-10-15,Duplicate,BeforeEPR
-T703685,P00568,Imaging,2020-10-10,Duplicate,BeforeEPR
-T478790,P00586,Blood Test,2022-04-19,Duplicate,AfterEPR
-T766838,P00590,Microbiology,2022-03-04,Duplicate,AfterEPR
-T169414,P00606,Microbiology,2022-01-01,Duplicate,AfterEPR
-T388014,P00665,Imaging,2024-01-01,Duplicate,AfterEPR
-T726747,P00668,Blood Test,2018-01-23,Duplicate,BeforeEPR
-T912336,P00712,Microbiology,2024-03-07,Duplicate,AfterEPR
-T228134,P00741,Blood Test,2019-04-02,Duplicate,BeforeEPR
-T591154,P00772,Imaging,2022-12-21,Duplicate,AfterEPR
-T161923,P00819,Imaging,2022-02-03,Duplicate,AfterEPR
-T707582,P00862,Blood Test,2021-11-22,Duplicate,BeforeEPR
-T780680,P00909,Blood Test,2021-12-16,Duplicate,BeforeEPR
-T975000,P00919,Blood Test,2018-03-16,Duplicate,BeforeEPR
-T509278,P00937,Imaging,2019-07-09,Duplicate,BeforeEPR
-T878993,P00954,Blood Test,2021-01-08,Duplicate,BeforeEPR
-T824396,P00961,Imaging,2018-04-11,Duplicate,BeforeEPR
-T314405,P00968,Imaging,2019-07-19,Duplicate,BeforeEPR
-T451089,P00969,Imaging,2021-03-21,Duplicate,BeforeEPR
-T917311,P00975,Blood Test,2023-02-24,Duplicate,AfterEPR
-T637968,P01000,Blood Test,2023-11-02,Duplicate,AfterEPR
-T260202,P01006,Imaging,2020-12-04,Duplicate,BeforeEPR
-T444737,P01012,Microbiology,2024-11-13,Duplicate,AfterEPR
-T594340,P01037,Imaging,2022-03-13,Duplicate,AfterEPR
-T613059,P01043,Microbiology,2022-07-16,Duplicate,AfterEPR
-T373595,P01060,Blood Test,2018-09-05,Duplicate,BeforeEPR
-T718304,P01091,Microbiology,2024-02-05,Duplicate,AfterEPR
-T620621,P01094,Blood Test,2022-01-10,Duplicate,AfterEPR
-T140465,P01123,Blood Test,2022-04-14,Duplicate,AfterEPR
-T187065,P01131,Blood Test,2022-12-26,Duplicate,AfterEPR
-T279611,P01156,Microbiology,2020-10-10,Duplicate,BeforeEPR
-T223774,P01165,Microbiology,2019-03-03,Duplicate,BeforeEPR
-T883220,P01178,Imaging,2020-11-01,Duplicate,BeforeEPR
-T371431,P01198,Imaging,2023-07-13,Duplicate,AfterEPR
-T956970,P01199,Imaging,2024-06-06,Duplicate,AfterEPR
-T303190,P01204,Blood Test,2024-01-24,Duplicate,AfterEPR
-T596508,P01233,Microbiology,2023-02-14,Duplicate,AfterEPR
-T973636,P01250,Blood Test,2023-01-02,Duplicate,AfterEPR
-T451079,P01254,Imaging,2023-10-25,Duplicate,AfterEPR
-T283303,P01291,Imaging,2018-02-26,Duplicate,BeforeEPR
-T800556,P01320,Blood Test,2019-08-01,Duplicate,BeforeEPR
-T586249,P01327,Imaging,2019-07-21,Duplicate,BeforeEPR
-T357090,P01395,Imaging,2018-09-21,Duplicate,BeforeEPR
-T603099,P01419,Microbiology,2024-12-10,Duplicate,AfterEPR
-T139724,P01433,Blood Test,2021-04-03,Duplicate,BeforeEPR
-T979417,P01445,Imaging,2022-03-09,Duplicate,AfterEPR
-T694643,P01460,Microbiology,2021-01-03,Duplicate,BeforeEPR
-T514211,P01487,Microbiology,2021-07-02,Duplicate,BeforeEPR
-T759692,P01501,Blood Test,2024-08-09,Duplicate,AfterEPR
-T889142,P01503,Blood Test,2018-08-17,Duplicate,BeforeEPR
-T235662,P01554,Blood Test,2024-06-26,Duplicate,AfterEPR
-T984576,P01559,Imaging,2022-10-22,Duplicate,AfterEPR
-T334497,P01560,Blood Test,2023-08-04,Duplicate,AfterEPR
-T112221,P01585,Blood Test,2019-04-06,Duplicate,BeforeEPR
-T675196,P01604,Imaging,2024-02-27,Duplicate,AfterEPR
-T945404,P01624,Imaging,2021-04-25,Duplicate,BeforeEPR
-T329939,P01631,Microbiology,2019-09-09,Duplicate,BeforeEPR
-T516566,P01635,Imaging,2019-03-14,Duplicate,BeforeEPR
-T723996,P01670,Microbiology,2020-03-26,Duplicate,BeforeEPR
-T618796,P01672,Blood Test,2018-03-26,Duplicate,BeforeEPR
-T630811,P01707,Blood Test,2022-12-13,Duplicate,AfterEPR
-T775636,P01794,Blood Test,2018-10-05,Duplicate,BeforeEPR
-T986194,P01819,Blood Test,2018-02-21,Duplicate,BeforeEPR
-T700268,P01834,Blood Test,2020-08-25,Duplicate,BeforeEPR
-T144285,P01834,Imaging,2021-10-08,Duplicate,BeforeEPR
-T179656,P01849,Blood Test,2023-05-22,Duplicate,AfterEPR
-T943070,P01873,Blood Test,2022-12-13,Duplicate,AfterEPR
-T787547,P01894,Blood Test,2021-02-07,Duplicate,BeforeEPR
-T105618,P01904,Blood Test,2018-08-16,Duplicate,BeforeEPR
-T714271,P01904,Imaging,2024-08-10,Duplicate,AfterEPR
-T727290,P01906,Microbiology,2019-04-04,Duplicate,BeforeEPR
-T903623,P01908,Microbiology,2022-12-17,Duplicate,AfterEPR
-T848538,P01959,Microbiology,2022-04-11,Duplicate,AfterEPR
-T985539,P01997,Imaging,2022-07-09,Duplicate,AfterEPR
-T665939,P02013,Blood Test,2023-12-01,Duplicate,AfterEPR
-T600291,P02018,Imaging,2021-02-13,Duplicate,BeforeEPR
-T355838,P02036,Blood Test,2020-09-25,Duplicate,BeforeEPR
-T511214,P02054,Imaging,2021-04-22,Duplicate,BeforeEPR
-T296690,P02065,Imaging,2019-12-11,Duplicate,BeforeEPR
-T416470,P02103,Blood Test,2021-05-11,Duplicate,BeforeEPR
-T810125,P02109,Blood Test,2022-10-21,Duplicate,AfterEPR
-T399783,P02138,Imaging,2021-02-06,Duplicate,BeforeEPR
-T106420,P02160,Microbiology,2018-01-10,Duplicate,BeforeEPR
-T712777,P02165,Microbiology,2021-05-13,Duplicate,BeforeEPR
-T200522,P02176,Microbiology,2022-06-25,Duplicate,AfterEPR
-T483466,P02190,Blood Test,2019-10-03,Duplicate,BeforeEPR
-T623553,P02195,Blood Test,2021-07-05,Duplicate,BeforeEPR
-T151173,P02212,Imaging,2023-05-17,Duplicate,AfterEPR
-T636271,P02242,Blood Test,2021-12-06,Duplicate,BeforeEPR
-T445822,P02263,Blood Test,2023-01-01,Duplicate,AfterEPR
-T793370,P02324,Blood Test,2023-03-01,Duplicate,AfterEPR
-T414884,P02345,Imaging,2023-04-08,Duplicate,AfterEPR
-T540337,P02360,Imaging,2024-01-14,Duplicate,AfterEPR
-T143535,P02383,Imaging,2024-03-06,Duplicate,AfterEPR
-T770704,P02403,Blood Test,2020-03-21,Duplicate,BeforeEPR
-T708116,P02405,Microbiology,2022-07-11,Duplicate,AfterEPR
-T790778,P02412,Blood Test,2022-06-07,Duplicate,AfterEPR
-T316378,P02421,Blood Test,2021-07-04,Duplicate,BeforeEPR
-T102987,P02488,Blood Test,2018-11-16,Duplicate,BeforeEPR
-T461854,P02499,Blood Test,2019-12-16,Duplicate,BeforeEPR
-T828427,P02499,Blood Test,2023-01-17,Duplicate,AfterEPR
-T179622,P02554,Microbiology,2019-07-25,Duplicate,BeforeEPR
-T847818,P02559,Blood Test,2020-11-14,Duplicate,BeforeEPR
-T272175,P02559,Blood Test,2023-06-11,Duplicate,AfterEPR
-T807071,P02565,Imaging,2022-10-03,Duplicate,AfterEPR
-T292356,P02568,Blood Test,2023-11-19,Duplicate,AfterEPR
-T710552,P02583,Blood Test,2019-09-27,Duplicate,BeforeEPR
-T130728,P02588,Blood Test,2018-11-20,Duplicate,BeforeEPR
-T129472,P02631,Blood Test,2018-01-21,Duplicate,BeforeEPR
-T628779,P02645,Microbiology,2022-10-12,Duplicate,AfterEPR
-T848803,P02670,Blood Test,2020-10-02,Duplicate,BeforeEPR
-T703688,P02705,Blood Test,2018-11-05,Duplicate,BeforeEPR
-T664901,P02711,Microbiology,2019-10-01,Duplicate,BeforeEPR
-T549150,P02745,Microbiology,2023-07-03,Duplicate,AfterEPR
-T613580,P02768,Imaging,2018-09-07,Duplicate,BeforeEPR
-T327234,P02796,Blood Test,2019-03-16,Duplicate,BeforeEPR
-T688913,P02849,Blood Test,2024-09-15,Duplicate,AfterEPR
-T350698,P02854,Imaging,2022-11-11,Duplicate,AfterEPR
-T321793,P02874,Blood Test,2019-11-19,Duplicate,BeforeEPR
-T361100,P02877,Microbiology,2021-07-05,Duplicate,BeforeEPR
-T453464,P02886,Blood Test,2023-02-22,Duplicate,AfterEPR
-T706260,P02895,Imaging,2021-12-26,Duplicate,BeforeEPR
-T732624,P02926,Blood Test,2021-05-03,Duplicate,BeforeEPR
-T184344,P02950,Microbiology,2019-10-18,Duplicate,BeforeEPR
-T774077,P02951,Blood Test,2021-06-22,Duplicate,BeforeEPR
-T580678,P02975,Blood Test,2020-03-02,Duplicate,BeforeEPR
-T385921,P02975,Microbiology,2024-08-08,Duplicate,AfterEPR
-T759437,P02995,Blood Test,2019-03-06,Duplicate,BeforeEPR
-T359440,P03009,Blood Test,2024-09-06,Duplicate,AfterEPR
-T393783,P03014,Blood Test,2023-03-04,Duplicate,AfterEPR
-T625671,P03018,Microbiology,2022-02-24,Duplicate,AfterEPR
-T520435,P03020,Blood Test,2023-05-06,Duplicate,AfterEPR
-T822455,P03041,Microbiology,2023-07-05,Duplicate,AfterEPR
-T158756,P03064,Microbiology,2022-04-05,Duplicate,AfterEPR
-T404649,P03099,Imaging,2018-10-03,Duplicate,BeforeEPR
-T979665,P03136,Blood Test,2024-01-18,Duplicate,AfterEPR
-T621496,P03138,Microbiology,2021-03-21,Duplicate,BeforeEPR
-T305953,P03150,Imaging,2018-08-20,Duplicate,BeforeEPR
-T321109,P03151,Imaging,2019-09-27,Duplicate,BeforeEPR
-T764431,P03161,Microbiology,2018-12-11,Duplicate,BeforeEPR
-T919424,P03161,Blood Test,2023-08-17,Duplicate,AfterEPR
-T809671,P03178,Imaging,2018-12-18,Duplicate,BeforeEPR
-T865737,P03195,Microbiology,2021-03-22,Duplicate,BeforeEPR
-T894961,P03210,Blood Test,2018-12-22,Duplicate,BeforeEPR
-T791446,P03214,Blood Test,2020-03-11,Duplicate,BeforeEPR
-T534500,P03218,Blood Test,2020-04-08,Duplicate,BeforeEPR
-T513249,P03223,Blood Test,2024-12-01,Duplicate,AfterEPR
-T279767,P03262,Blood Test,2023-11-09,Duplicate,AfterEPR
-T411471,P03268,Imaging,2018-09-06,Duplicate,BeforeEPR
-T532655,P03269,Imaging,2019-06-26,Duplicate,BeforeEPR
-T869705,P03281,Imaging,2023-10-02,Duplicate,AfterEPR
-T705396,P03287,Blood Test,2018-05-21,Duplicate,BeforeEPR
-T181666,P03322,Blood Test,2018-08-23,Duplicate,BeforeEPR
-T679728,P03387,Microbiology,2024-01-12,Duplicate,AfterEPR
-T290597,P03407,Imaging,2023-09-25,Duplicate,AfterEPR
-T813229,P03434,Microbiology,2020-10-15,Duplicate,BeforeEPR
-T454317,P03438,Imaging,2022-02-23,Duplicate,AfterEPR
-T523737,P03467,Microbiology,2019-04-18,Duplicate,BeforeEPR
-T608472,P03473,Imaging,2021-02-14,Duplicate,BeforeEPR
-T781043,P03494,Imaging,2023-02-22,Duplicate,AfterEPR
-T686327,P03500,Imaging,2024-06-12,Duplicate,AfterEPR
-T971829,P03508,Microbiology,2019-12-26,Duplicate,BeforeEPR
-T255991,P03520,Imaging,2021-12-19,Duplicate,BeforeEPR
-T765686,P03548,Blood Test,2021-09-18,Duplicate,BeforeEPR
-T539784,P03562,Microbiology,2019-06-03,Duplicate,BeforeEPR
-T402635,P03569,Blood Test,2024-02-25,Duplicate,AfterEPR
-T377310,P03593,Blood Test,2023-05-19,Duplicate,AfterEPR
-T502511,P03598,Blood Test,2023-03-05,Duplicate,AfterEPR
-T427039,P03602,Blood Test,2024-07-13,Duplicate,AfterEPR
-T428008,P03614,Microbiology,2023-01-07,Duplicate,AfterEPR
-T973250,P03631,Blood Test,2021-05-18,Duplicate,BeforeEPR
-T357916,P03635,Imaging,2019-09-19,Duplicate,BeforeEPR
-T492801,P03639,Imaging,2021-10-10,Duplicate,BeforeEPR
-T361947,P03656,Imaging,2022-02-16,Duplicate,AfterEPR
-T824857,P03663,Imaging,2024-07-06,Duplicate,AfterEPR
-T260885,P03665,Blood Test,2019-06-17,Duplicate,BeforeEPR
-T474185,P03683,Blood Test,2021-04-15,Duplicate,BeforeEPR
-T793572,P03732,Imaging,2024-07-21,Duplicate,AfterEPR
-T743906,P03754,Blood Test,2023-01-06,Duplicate,AfterEPR
-T981410,P03765,Imaging,2021-05-07,Duplicate,BeforeEPR
-T566821,P03784,Imaging,2022-07-15,Duplicate,AfterEPR
-T927826,P03844,Imaging,2018-04-09,Duplicate,BeforeEPR
-T745351,P03854,Imaging,2020-11-06,Duplicate,BeforeEPR
-T683862,P03864,Imaging,2023-10-06,Duplicate,AfterEPR
-T267586,P03875,Blood Test,2021-11-05,Duplicate,BeforeEPR
-T817000,P03876,Blood Test,2018-01-15,Duplicate,BeforeEPR
-T544156,P03885,Blood Test,2020-03-17,Duplicate,BeforeEPR
-T919657,P03892,Blood Test,2023-07-11,Duplicate,AfterEPR
-T355515,P03971,Microbiology,2020-10-08,Duplicate,BeforeEPR
-T478340,P04026,Microbiology,2020-01-10,Duplicate,BeforeEPR
-T971742,P04039,Imaging,2022-07-23,Duplicate,AfterEPR
-T859331,P04079,Blood Test,2023-10-26,Duplicate,AfterEPR
-T246119,P04092,Microbiology,2020-08-26,Duplicate,BeforeEPR
-T452202,P04123,Imaging,2023-09-04,Duplicate,AfterEPR
-T315241,P04128,Blood Test,2021-12-02,Duplicate,BeforeEPR
-T398292,P04140,Microbiology,2022-04-06,Duplicate,AfterEPR
-T170608,P04140,Microbiology,2023-05-01,Duplicate,AfterEPR
-T337883,P04151,Blood Test,2019-08-21,Duplicate,BeforeEPR
-T150417,P04153,Microbiology,2023-02-08,Duplicate,AfterEPR
-T293493,P04173,Imaging,2020-05-18,Duplicate,BeforeEPR
-T298915,P04213,Blood Test,2021-08-07,Duplicate,BeforeEPR
-T109247,P04215,Imaging,2018-08-27,Duplicate,BeforeEPR
-T859463,P04230,Blood Test,2022-07-16,Duplicate,AfterEPR
-T555714,P04234,Microbiology,2022-04-06,Duplicate,AfterEPR
-T884838,P04248,Blood Test,2024-01-11,Duplicate,AfterEPR
-T217152,P04254,Microbiology,2020-09-14,Duplicate,BeforeEPR
-T956858,P04255,Blood Test,2021-12-11,Duplicate,BeforeEPR
-T314016,P04275,Imaging,2020-10-17,Duplicate,BeforeEPR
-T551925,P04293,Microbiology,2024-04-13,Duplicate,AfterEPR
-T636311,P04318,Imaging,2022-01-18,Duplicate,AfterEPR
-T459311,P04346,Blood Test,2022-10-03,Duplicate,AfterEPR
-T661938,P04349,Imaging,2022-03-26,Duplicate,AfterEPR
-T552125,P04370,Blood Test,2024-05-15,Duplicate,AfterEPR
-T933031,P04399,Blood Test,2023-04-12,Duplicate,AfterEPR
-T530163,P04420,Imaging,2022-05-08,Duplicate,AfterEPR
-T539461,P04434,Blood Test,2019-11-14,Duplicate,BeforeEPR
-T307634,P04454,Imaging,2024-04-26,Duplicate,AfterEPR
-T139558,P04498,Microbiology,2023-07-12,Duplicate,AfterEPR
-T935029,P04500,Imaging,2018-10-20,Duplicate,BeforeEPR
-T991411,P04508,Microbiology,2024-04-06,Duplicate,AfterEPR
-T307355,P04509,Imaging,2022-06-08,Duplicate,AfterEPR
-T962738,P04521,Blood Test,2018-01-16,Duplicate,BeforeEPR
-T744654,P04530,Imaging,2020-11-27,Duplicate,BeforeEPR
-T966960,P04532,Microbiology,2019-03-13,Duplicate,BeforeEPR
-T234565,P04579,Microbiology,2019-10-12,Duplicate,BeforeEPR
-T139910,P04583,Blood Test,2023-01-17,Duplicate,AfterEPR
-T103953,P04586,Microbiology,2019-09-26,Duplicate,BeforeEPR
-T989248,P04610,Blood Test,2023-04-17,Duplicate,AfterEPR
-T386455,P04615,Imaging,2020-06-25,Duplicate,BeforeEPR
-T922769,P04640,Microbiology,2023-02-01,Duplicate,AfterEPR
-T178940,P04657,Blood Test,2018-02-04,Duplicate,BeforeEPR
-T971746,P04657,Imaging,2024-06-17,Duplicate,AfterEPR
-T936196,P04677,Imaging,2023-08-05,Duplicate,AfterEPR
-T185017,P04680,Imaging,2019-11-05,Duplicate,BeforeEPR
-T825379,P04706,Blood Test,2023-07-14,Duplicate,AfterEPR
-T467646,P04728,Imaging,2023-10-05,Duplicate,AfterEPR
-T874591,P04760,Blood Test,2020-08-07,Duplicate,BeforeEPR
-T162650,P04767,Imaging,2020-07-03,Duplicate,BeforeEPR
-T536831,P04788,Imaging,2019-10-06,Duplicate,BeforeEPR
-T435767,P04799,Blood Test,2023-10-15,Duplicate,AfterEPR
-T849035,P04851,Blood Test,2018-11-05,Duplicate,BeforeEPR
-T447841,P04856,Blood Test,2023-10-15,Duplicate,AfterEPR
-T591663,P04906,Blood Test,2019-10-26,Duplicate,BeforeEPR
-T676351,P04907,Blood Test,2024-04-02,Duplicate,AfterEPR
-T869080,P04912,Imaging,2018-06-24,Duplicate,BeforeEPR
-T830889,P04914,Blood Test,2023-09-14,Duplicate,AfterEPR
-T805682,P04924,Imaging,2022-07-25,Duplicate,AfterEPR
-T299628,P04939,Imaging,2019-04-27,Duplicate,BeforeEPR
-T642150,P04987,Blood Test,2021-05-09,Duplicate,BeforeEPR
-T963062,P05027,Blood Test,2023-08-12,Duplicate,AfterEPR
-T903542,P05031,Imaging,2018-05-25,Duplicate,BeforeEPR
-T617946,P05034,Microbiology,2018-02-11,Duplicate,BeforeEPR
-T370110,P05048,Blood Test,2018-07-11,Duplicate,BeforeEPR
-T889427,P05050,Imaging,2018-10-07,Duplicate,BeforeEPR
-T606005,P05069,Microbiology,2018-07-11,Duplicate,BeforeEPR
-T185896,P05073,Blood Test,2022-12-25,Duplicate,AfterEPR
-T537658,P05080,Imaging,2019-08-18,Duplicate,BeforeEPR
-T361524,P05085,Microbiology,2023-07-12,Duplicate,AfterEPR
-T951660,P05099,Imaging,2023-08-21,Duplicate,AfterEPR
-T975777,P05146,Blood Test,2020-05-04,Duplicate,BeforeEPR
-T106479,P05159,Blood Test,2022-09-23,Duplicate,AfterEPR
-T124037,P05181,Imaging,2022-11-22,Duplicate,AfterEPR
-T839834,P05202,Imaging,2023-06-21,Duplicate,AfterEPR
-T187820,P05204,Imaging,2024-05-20,Duplicate,AfterEPR
-T229674,P05208,Blood Test,2018-06-08,Duplicate,BeforeEPR
-T674244,P05273,Imaging,2023-12-24,Duplicate,AfterEPR
-T397871,P05302,Imaging,2018-12-22,Duplicate,BeforeEPR
-T442416,P05323,Blood Test,2020-07-10,Duplicate,BeforeEPR
-T823440,P05338,Microbiology,2020-09-27,Duplicate,BeforeEPR
-T825245,P05369,Blood Test,2024-10-27,Duplicate,AfterEPR
-T917191,P05420,Blood Test,2024-02-05,Duplicate,AfterEPR
-T340571,P05431,Blood Test,2024-04-16,Duplicate,AfterEPR
-T996117,P05447,Blood Test,2023-04-27,Duplicate,AfterEPR
-T319846,P05508,Imaging,2024-05-12,Duplicate,AfterEPR
-T739630,P05509,Blood Test,2023-10-06,Duplicate,AfterEPR
-T587692,P05520,Blood Test,2018-10-03,Duplicate,BeforeEPR
-T229842,P05536,Imaging,2024-04-17,Duplicate,AfterEPR
-T272922,P05552,Blood Test,2022-01-19,Duplicate,AfterEPR
-T648397,P05580,Blood Test,2024-12-19,Duplicate,AfterEPR
-T208720,P05602,Imaging,2022-02-18,Duplicate,AfterEPR
-T792426,P05610,Imaging,2022-09-25,Duplicate,AfterEPR
-T471023,P05613,Blood Test,2023-12-22,Duplicate,AfterEPR
-T744538,P05614,Blood Test,2021-04-07,Duplicate,BeforeEPR
-T183799,P05624,Blood Test,2020-11-10,Duplicate,BeforeEPR
-T992417,P05631,Blood Test,2023-07-02,Duplicate,AfterEPR
-T631585,P05660,Imaging,2023-01-05,Duplicate,AfterEPR
-T212403,P05680,Blood Test,2020-07-06,Duplicate,BeforeEPR
-T171340,P05688,Blood Test,2018-08-13,Duplicate,BeforeEPR
-T794060,P05689,Blood Test,2021-10-06,Duplicate,BeforeEPR
-T595141,P05698,Microbiology,2022-04-12,Duplicate,AfterEPR
-T423678,P05707,Imaging,2020-01-27,Duplicate,BeforeEPR
-T640340,P05707,Microbiology,2018-02-16,Duplicate,BeforeEPR
-T498581,P05717,Microbiology,2020-10-10,Duplicate,BeforeEPR
-T470182,P05718,Imaging,2020-12-06,Duplicate,BeforeEPR
-T635616,P05773,Blood Test,2023-05-02,Duplicate,AfterEPR
-T172904,P05795,Imaging,2018-02-06,Duplicate,BeforeEPR
-T905887,P05798,Blood Test,2024-06-20,Duplicate,AfterEPR
-T119475,P05814,Microbiology,2023-01-11,Duplicate,AfterEPR
-T419656,P05858,Imaging,2024-12-22,Duplicate,AfterEPR
-T115579,P05888,Blood Test,2023-02-26,Duplicate,AfterEPR
-T157325,P05925,Microbiology,2024-09-15,Duplicate,AfterEPR
-T546459,P05964,Blood Test,2020-02-07,Duplicate,BeforeEPR
-T386100,P05971,Imaging,2024-02-14,Duplicate,AfterEPR
-T360547,P05974,Blood Test,2024-03-02,Duplicate,AfterEPR
-T613236,P05997,Imaging,2020-11-11,Duplicate,BeforeEPR
-T533122,P06006,Microbiology,2022-10-15,Duplicate,AfterEPR
-T461811,P06026,Blood Test,2019-03-24,Duplicate,BeforeEPR
-T353356,P06040,Microbiology,2024-04-22,Duplicate,AfterEPR
-T452719,P06158,Blood Test,2021-07-14,Duplicate,BeforeEPR
-T231499,P06163,Microbiology,2018-09-18,Duplicate,BeforeEPR
-T655826,P06170,Imaging,2023-07-16,Duplicate,AfterEPR
-T911272,P06221,Imaging,2018-01-25,Duplicate,BeforeEPR
-T849219,P06233,Blood Test,2024-08-19,Duplicate,AfterEPR
-T504303,P06247,Blood Test,2024-03-21,Duplicate,AfterEPR
-T408308,P06255,Imaging,2022-06-07,Duplicate,AfterEPR
-T512972,P06265,Blood Test,2021-07-12,Duplicate,BeforeEPR
-T150224,P06285,Blood Test,2019-08-05,Duplicate,BeforeEPR
-T580764,P06299,Blood Test,2019-07-08,Duplicate,BeforeEPR
-T235545,P06306,Blood Test,2019-10-05,Duplicate,BeforeEPR
-T646998,P06318,Microbiology,2024-08-03,Duplicate,AfterEPR
-T263448,P06323,Blood Test,2022-01-02,Duplicate,AfterEPR
-T211615,P06327,Microbiology,2019-02-18,Duplicate,BeforeEPR
-T466782,P06338,Imaging,2018-10-18,Duplicate,BeforeEPR
-T977048,P06356,Microbiology,2020-03-21,Duplicate,BeforeEPR
-T732057,P06368,Blood Test,2021-12-26,Duplicate,BeforeEPR
-T383623,P06370,Imaging,2019-09-23,Duplicate,BeforeEPR
-T712350,P06398,Microbiology,2018-05-27,Duplicate,BeforeEPR
-T602617,P06411,Blood Test,2020-12-24,Duplicate,BeforeEPR
-T665417,P06442,Blood Test,2018-05-18,Duplicate,BeforeEPR
-T824322,P06444,Blood Test,2024-06-15,Duplicate,AfterEPR
-T963563,P06454,Blood Test,2023-06-23,Duplicate,AfterEPR
-T916749,P06482,Blood Test,2021-02-18,Duplicate,BeforeEPR
-T755271,P06496,Blood Test,2023-11-25,Duplicate,AfterEPR
-T222575,P06530,Imaging,2021-01-20,Duplicate,BeforeEPR
-T422765,P06540,Blood Test,2019-02-15,Duplicate,BeforeEPR
-T530208,P06554,Blood Test,2019-02-25,Duplicate,BeforeEPR
-T423717,P06562,Microbiology,2018-03-06,Duplicate,BeforeEPR
-T983237,P06592,Imaging,2020-05-23,Duplicate,BeforeEPR
-T264878,P06594,Blood Test,2023-04-20,Duplicate,AfterEPR
-T256745,P06627,Blood Test,2021-05-22,Duplicate,BeforeEPR
-T343877,P06631,Blood Test,2021-08-01,Duplicate,BeforeEPR
-T160166,P06644,Imaging,2023-04-13,Duplicate,AfterEPR
-T311451,P06662,Microbiology,2018-03-06,Duplicate,BeforeEPR
-T556853,P06684,Blood Test,2022-02-01,Duplicate,AfterEPR
-T496739,P06743,Microbiology,2022-07-13,Duplicate,AfterEPR
-T248934,P06769,Imaging,2021-06-22,Duplicate,BeforeEPR
-T884616,P06774,Blood Test,2023-10-11,Duplicate,AfterEPR
-T401082,P06781,Blood Test,2018-03-11,Duplicate,BeforeEPR
-T317517,P06797,Microbiology,2022-06-05,Duplicate,AfterEPR
-T485567,P06802,Blood Test,2022-09-22,Duplicate,AfterEPR
-T752475,P06832,Microbiology,2024-08-17,Duplicate,AfterEPR
-T326371,P06881,Microbiology,2022-07-12,Duplicate,AfterEPR
-T788034,P06906,Blood Test,2024-03-04,Duplicate,AfterEPR
-T384286,P06921,Imaging,2020-05-07,Duplicate,BeforeEPR
-T976558,P06925,Microbiology,2022-06-22,Duplicate,AfterEPR
-T219634,P06966,Microbiology,2018-09-06,Duplicate,BeforeEPR
-T535148,P06985,Blood Test,2022-04-17,Duplicate,AfterEPR
-T958781,P06995,Imaging,2022-12-01,Duplicate,AfterEPR
-T638301,P07000,Blood Test,2021-07-11,Duplicate,BeforeEPR
-T310768,P07001,Blood Test,2023-08-17,Duplicate,AfterEPR
-T380944,P07030,Imaging,2018-01-01,Duplicate,BeforeEPR
-T215318,P07066,Blood Test,2021-12-02,Duplicate,BeforeEPR
-T214580,P07068,Imaging,2023-11-13,Duplicate,AfterEPR
-T726954,P07095,Microbiology,2024-08-17,Duplicate,AfterEPR
-T477144,P07115,Microbiology,2024-03-09,Duplicate,AfterEPR
-T404580,P07120,Microbiology,2023-09-22,Duplicate,AfterEPR
-T689709,P07129,Blood Test,2024-05-19,Duplicate,AfterEPR
-T523501,P07159,Blood Test,2020-02-17,Duplicate,BeforeEPR
-T526675,P07214,Imaging,2024-05-14,Duplicate,AfterEPR
-T555441,P07225,Blood Test,2019-08-21,Duplicate,BeforeEPR
-T268353,P07252,Microbiology,2022-05-15,Duplicate,AfterEPR
-T498547,P07255,Blood Test,2020-05-10,Duplicate,BeforeEPR
-T544634,P07302,Microbiology,2024-02-20,Duplicate,AfterEPR
-T691166,P07354,Microbiology,2020-06-05,Duplicate,BeforeEPR
-T840075,P07357,Imaging,2023-11-22,Duplicate,AfterEPR
-T120041,P07380,Microbiology,2022-08-27,Duplicate,AfterEPR
-T736286,P07394,Imaging,2020-12-16,Duplicate,BeforeEPR
-T911066,P07395,Imaging,2024-02-18,Duplicate,AfterEPR
-T227618,P07403,Blood Test,2018-04-07,Duplicate,BeforeEPR
-T538287,P07431,Imaging,2019-10-15,Duplicate,BeforeEPR
-T387884,P07445,Imaging,2019-11-18,Duplicate,BeforeEPR
-T626689,P07448,Imaging,2018-10-15,Duplicate,BeforeEPR
+T383124,P00004,Blood Test,2024-09-19,Duplicate,AfterEPR
+T502559,P00020,Blood Test,2024-03-12,Duplicate,AfterEPR
+T407053,P00066,Imaging,2020-02-13,Duplicate,BeforeEPR
+T110469,P00074,Microbiology,2018-06-27,Duplicate,BeforeEPR
+T877666,P00077,Imaging,2019-04-14,Duplicate,BeforeEPR
+T168365,P00085,Blood Test,2022-05-06,Duplicate,AfterEPR
+T535478,P00090,Imaging,2020-07-06,Duplicate,BeforeEPR
+T437248,P00098,Blood Test,2020-07-14,Duplicate,BeforeEPR
+T622885,P00104,Blood Test,2018-05-18,Duplicate,BeforeEPR
+T157578,P00121,Blood Test,2018-07-27,Duplicate,BeforeEPR
+T694956,P00123,Blood Test,2022-04-19,Duplicate,AfterEPR
+T355600,P00135,Blood Test,2022-05-27,Duplicate,AfterEPR
+T539201,P00212,Blood Test,2024-04-19,Duplicate,AfterEPR
+T650342,P00240,Microbiology,2021-12-11,Duplicate,BeforeEPR
+T947129,P00244,Imaging,2022-02-08,Duplicate,AfterEPR
+T139225,P00297,Blood Test,2021-11-24,Duplicate,BeforeEPR
+T515610,P00314,Blood Test,2023-08-25,Duplicate,AfterEPR
+T837312,P00322,Blood Test,2020-02-27,Duplicate,BeforeEPR
+T662372,P00336,Blood Test,2024-07-08,Duplicate,AfterEPR
+T872570,P00363,Microbiology,2021-06-04,Duplicate,BeforeEPR
+T844285,P00369,Microbiology,2023-01-24,Duplicate,AfterEPR
+T319262,P00388,Blood Test,2018-08-25,Duplicate,BeforeEPR
+T976648,P00390,Blood Test,2024-09-02,Duplicate,AfterEPR
+T155256,P00401,Microbiology,2023-01-03,Duplicate,AfterEPR
+T987466,P00405,Blood Test,2024-08-15,Duplicate,AfterEPR
+T348042,P00412,Microbiology,2018-03-04,Duplicate,BeforeEPR
+T568707,P00425,Blood Test,2019-01-02,Duplicate,BeforeEPR
+T758753,P00435,Imaging,2021-08-06,Duplicate,BeforeEPR
+T894203,P00437,Blood Test,2021-09-21,Duplicate,BeforeEPR
+T420702,P00439,Blood Test,2023-08-20,Duplicate,AfterEPR
+T737769,P00503,Blood Test,2021-05-15,Duplicate,BeforeEPR
+T715000,P00560,Blood Test,2018-10-22,Duplicate,BeforeEPR
+T477150,P00565,Microbiology,2018-10-21,Duplicate,BeforeEPR
+T663207,P00568,Imaging,2022-07-08,Duplicate,AfterEPR
+T679761,P00573,Microbiology,2024-07-11,Duplicate,AfterEPR
+T680984,P00583,Microbiology,2018-08-01,Duplicate,BeforeEPR
+T508621,P00587,Blood Test,2019-04-24,Duplicate,BeforeEPR
+T694005,P00608,Blood Test,2018-01-18,Duplicate,BeforeEPR
+T283661,P00617,Imaging,2024-10-12,Duplicate,AfterEPR
+T649525,P00624,Microbiology,2019-12-02,Duplicate,BeforeEPR
+T971247,P00625,Blood Test,2024-09-11,Duplicate,AfterEPR
+T477479,P00630,Blood Test,2020-09-06,Duplicate,BeforeEPR
+T853661,P00633,Blood Test,2019-08-04,Duplicate,BeforeEPR
+T878682,P00675,Blood Test,2024-12-23,Duplicate,AfterEPR
+T746367,P00685,Blood Test,2024-06-16,Duplicate,AfterEPR
+T646817,P00693,Blood Test,2022-07-08,Duplicate,AfterEPR
+T852771,P00733,Blood Test,2024-11-14,Duplicate,AfterEPR
+T885454,P00750,Imaging,2024-02-01,Duplicate,AfterEPR
+T702226,P00772,Microbiology,2018-11-12,Duplicate,BeforeEPR
+T216989,P00779,Blood Test,2022-08-15,Duplicate,AfterEPR
+T851071,P00786,Blood Test,2023-05-10,Duplicate,AfterEPR
+T621154,P00790,Blood Test,2023-09-11,Duplicate,AfterEPR
+T143712,P00803,Microbiology,2021-04-07,Duplicate,BeforeEPR
+T139744,P00847,Blood Test,2021-06-25,Duplicate,BeforeEPR
+T351534,P00847,Imaging,2019-11-08,Duplicate,BeforeEPR
+T462760,P00875,Microbiology,2024-10-18,Duplicate,AfterEPR
+T654289,P00876,Imaging,2024-02-18,Duplicate,AfterEPR
+T512117,P00882,Blood Test,2020-12-25,Duplicate,BeforeEPR
+T759685,P00883,Blood Test,2020-11-21,Duplicate,BeforeEPR
+T330806,P00919,Blood Test,2022-02-10,Duplicate,AfterEPR
+T742860,P00926,Blood Test,2020-08-02,Duplicate,BeforeEPR
+T845831,P01025,Blood Test,2022-07-19,Duplicate,AfterEPR
+T848537,P01040,Microbiology,2024-01-03,Duplicate,AfterEPR
+T607469,P01094,Imaging,2022-03-23,Duplicate,AfterEPR
+T175427,P01137,Imaging,2023-07-08,Duplicate,AfterEPR
+T652403,P01255,Blood Test,2023-03-22,Duplicate,AfterEPR
+T394862,P01289,Blood Test,2023-03-25,Duplicate,AfterEPR
+T863970,P01302,Imaging,2024-11-26,Duplicate,AfterEPR
+T313970,P01307,Microbiology,2020-02-20,Duplicate,BeforeEPR
+T725772,P01333,Blood Test,2024-06-11,Duplicate,AfterEPR
+T300633,P01365,Blood Test,2018-06-24,Duplicate,BeforeEPR
+T550371,P01366,Microbiology,2023-07-21,Duplicate,AfterEPR
+T928757,P01405,Blood Test,2024-06-26,Duplicate,AfterEPR
+T904579,P01425,Imaging,2019-04-09,Duplicate,BeforeEPR
+T380820,P01457,Microbiology,2024-11-08,Duplicate,AfterEPR
+T625666,P01473,Blood Test,2024-11-23,Duplicate,AfterEPR
+T641086,P01476,Blood Test,2022-09-14,Duplicate,AfterEPR
+T165197,P01481,Microbiology,2020-09-24,Duplicate,BeforeEPR
+T752888,P01508,Microbiology,2020-01-16,Duplicate,BeforeEPR
+T345745,P01546,Blood Test,2022-02-11,Duplicate,AfterEPR
+T289230,P01547,Blood Test,2019-02-13,Duplicate,BeforeEPR
+T387327,P01553,Blood Test,2024-04-24,Duplicate,AfterEPR
+T508734,P01568,Blood Test,2019-09-17,Duplicate,BeforeEPR
+T598653,P01571,Imaging,2023-02-26,Duplicate,AfterEPR
+T133688,P01589,Blood Test,2024-11-26,Duplicate,AfterEPR
+T496228,P01603,Microbiology,2020-04-08,Duplicate,BeforeEPR
+T251029,P01644,Imaging,2023-07-19,Duplicate,AfterEPR
+T367135,P01657,Microbiology,2021-12-23,Duplicate,BeforeEPR
+T126966,P01666,Imaging,2018-10-03,Duplicate,BeforeEPR
+T918079,P01667,Blood Test,2019-02-24,Duplicate,BeforeEPR
+T491347,P01689,Blood Test,2023-05-19,Duplicate,AfterEPR
+T423958,P01711,Microbiology,2018-10-08,Duplicate,BeforeEPR
+T574077,P01723,Blood Test,2020-02-27,Duplicate,BeforeEPR
+T767401,P01729,Microbiology,2018-07-15,Duplicate,BeforeEPR
+T125121,P01740,Blood Test,2018-01-12,Duplicate,BeforeEPR
+T713936,P01743,Microbiology,2021-05-10,Duplicate,BeforeEPR
+T945157,P01790,Blood Test,2023-05-02,Duplicate,AfterEPR
+T850911,P01794,Imaging,2021-07-13,Duplicate,BeforeEPR
+T618718,P01796,Microbiology,2022-12-03,Duplicate,AfterEPR
+T448785,P01803,Microbiology,2024-04-11,Duplicate,AfterEPR
+T370597,P01816,Blood Test,2019-11-10,Duplicate,BeforeEPR
+T595366,P01827,Imaging,2022-05-13,Duplicate,AfterEPR
+T782089,P01829,Blood Test,2020-07-16,Duplicate,BeforeEPR
+T630677,P01835,Blood Test,2020-07-15,Duplicate,BeforeEPR
+T776509,P01839,Imaging,2024-01-20,Duplicate,AfterEPR
+T773322,P01841,Blood Test,2022-04-22,Duplicate,AfterEPR
+T553713,P01849,Blood Test,2020-08-01,Duplicate,BeforeEPR
+T181614,P01855,Blood Test,2018-02-04,Duplicate,BeforeEPR
+T911482,P01858,Blood Test,2018-04-21,Duplicate,BeforeEPR
+T137363,P01907,Imaging,2019-09-19,Duplicate,BeforeEPR
+T381425,P01915,Microbiology,2022-03-14,Duplicate,AfterEPR
+T184367,P01933,Microbiology,2024-06-20,Duplicate,AfterEPR
+T929077,P01944,Blood Test,2020-09-01,Duplicate,BeforeEPR
+T469559,P01953,Microbiology,2024-08-13,Duplicate,AfterEPR
+T318801,P01973,Blood Test,2021-06-14,Duplicate,BeforeEPR
+T714587,P01990,Imaging,2024-06-23,Duplicate,AfterEPR
+T487742,P01991,Imaging,2022-07-15,Duplicate,AfterEPR
+T705239,P01992,Imaging,2022-09-13,Duplicate,AfterEPR
+T266302,P02000,Microbiology,2023-07-21,Duplicate,AfterEPR
+T643646,P02003,Blood Test,2022-10-19,Duplicate,AfterEPR
+T840938,P02009,Imaging,2019-04-15,Duplicate,BeforeEPR
+T387494,P02012,Microbiology,2018-02-15,Duplicate,BeforeEPR
+T911066,P02037,Blood Test,2020-05-14,Duplicate,BeforeEPR
+T572733,P02067,Blood Test,2018-07-23,Duplicate,BeforeEPR
+T225175,P02076,Imaging,2018-10-18,Duplicate,BeforeEPR
+T745945,P02080,Blood Test,2019-07-02,Duplicate,BeforeEPR
+T672549,P02084,Blood Test,2023-06-07,Duplicate,AfterEPR
+T231892,P02124,Microbiology,2021-05-02,Duplicate,BeforeEPR
+T485005,P02135,Imaging,2022-12-26,Duplicate,AfterEPR
+T296981,P02139,Blood Test,2020-01-24,Duplicate,BeforeEPR
+T304670,P02167,Imaging,2024-10-17,Duplicate,AfterEPR
+T294491,P02181,Imaging,2020-08-22,Duplicate,BeforeEPR
+T458876,P02202,Imaging,2021-06-16,Duplicate,BeforeEPR
+T205811,P02212,Blood Test,2019-09-10,Duplicate,BeforeEPR
+T946822,P02259,Blood Test,2023-10-12,Duplicate,AfterEPR
+T623486,P02261,Blood Test,2022-11-26,Duplicate,AfterEPR
+T613542,P02282,Imaging,2023-04-27,Duplicate,AfterEPR
+T251265,P02321,Imaging,2019-12-13,Duplicate,BeforeEPR
+T914749,P02342,Blood Test,2022-11-11,Duplicate,AfterEPR
+T801169,P02359,Imaging,2023-08-08,Duplicate,AfterEPR
+T640956,P02380,Blood Test,2023-02-15,Duplicate,AfterEPR
+T767230,P02392,Imaging,2022-12-03,Duplicate,AfterEPR
+T266408,P02393,Blood Test,2024-01-04,Duplicate,AfterEPR
+T912153,P02431,Blood Test,2023-12-20,Duplicate,AfterEPR
+T954118,P02460,Microbiology,2019-03-12,Duplicate,BeforeEPR
+T828911,P02482,Microbiology,2019-11-06,Duplicate,BeforeEPR
+T195117,P02493,Microbiology,2021-01-25,Duplicate,BeforeEPR
+T144813,P02511,Blood Test,2021-02-03,Duplicate,BeforeEPR
+T306806,P02550,Blood Test,2023-02-23,Duplicate,AfterEPR
+T335124,P02552,Imaging,2020-05-15,Duplicate,BeforeEPR
+T343404,P02575,Blood Test,2020-06-11,Duplicate,BeforeEPR
+T275863,P02584,Blood Test,2023-03-18,Duplicate,AfterEPR
+T110701,P02600,Blood Test,2024-03-26,Duplicate,AfterEPR
+T447395,P02635,Imaging,2022-06-13,Duplicate,AfterEPR
+T689864,P02642,Blood Test,2022-03-02,Duplicate,AfterEPR
+T911624,P02670,Imaging,2018-08-21,Duplicate,BeforeEPR
+T301831,P02717,Imaging,2024-11-10,Duplicate,AfterEPR
+T993807,P02734,Blood Test,2022-08-22,Duplicate,AfterEPR
+T191150,P02741,Blood Test,2021-02-05,Duplicate,BeforeEPR
+T323727,P02743,Blood Test,2024-06-01,Duplicate,AfterEPR
+T294174,P02764,Imaging,2022-03-14,Duplicate,AfterEPR
+T645596,P02793,Blood Test,2021-07-06,Duplicate,BeforeEPR
+T941482,P02825,Imaging,2024-11-19,Duplicate,AfterEPR
+T963732,P02858,Microbiology,2022-04-08,Duplicate,AfterEPR
+T651813,P02873,Imaging,2018-03-12,Duplicate,BeforeEPR
+T680100,P02878,Microbiology,2024-07-20,Duplicate,AfterEPR
+T510119,P02896,Blood Test,2018-08-04,Duplicate,BeforeEPR
+T138590,P02897,Imaging,2018-10-24,Duplicate,BeforeEPR
+T837930,P02952,Blood Test,2018-12-11,Duplicate,BeforeEPR
+T827611,P02957,Blood Test,2020-08-16,Duplicate,BeforeEPR
+T242727,P02961,Blood Test,2020-10-01,Duplicate,BeforeEPR
+T861219,P02969,Microbiology,2022-01-06,Duplicate,AfterEPR
+T415808,P02987,Blood Test,2024-04-26,Duplicate,AfterEPR
+T612696,P03027,Imaging,2023-03-25,Duplicate,AfterEPR
+T152404,P03033,Blood Test,2023-04-08,Duplicate,AfterEPR
+T227168,P03055,Blood Test,2019-08-13,Duplicate,BeforeEPR
+T378837,P03093,Blood Test,2022-10-21,Duplicate,AfterEPR
+T399526,P03118,Imaging,2022-04-11,Duplicate,AfterEPR
+T893499,P03120,Blood Test,2018-03-18,Duplicate,BeforeEPR
+T621995,P03129,Blood Test,2019-02-12,Duplicate,BeforeEPR
+T429430,P03132,Blood Test,2022-04-17,Duplicate,AfterEPR
+T527174,P03151,Imaging,2020-08-05,Duplicate,BeforeEPR
+T251787,P03177,Blood Test,2023-05-24,Duplicate,AfterEPR
+T700751,P03180,Imaging,2018-01-17,Duplicate,BeforeEPR
+T167722,P03182,Imaging,2023-03-23,Duplicate,AfterEPR
+T797585,P03189,Imaging,2024-01-22,Duplicate,AfterEPR
+T179695,P03194,Imaging,2023-12-14,Duplicate,AfterEPR
+T254827,P03220,Blood Test,2019-07-21,Duplicate,BeforeEPR
+T252394,P03232,Microbiology,2020-06-19,Duplicate,BeforeEPR
+T489427,P03234,Microbiology,2023-04-03,Duplicate,AfterEPR
+T239437,P03283,Blood Test,2023-11-02,Duplicate,AfterEPR
+T975602,P03292,Imaging,2023-11-16,Duplicate,AfterEPR
+T771776,P03303,Imaging,2022-01-06,Duplicate,AfterEPR
+T200420,P03306,Blood Test,2021-11-05,Duplicate,BeforeEPR
+T810567,P03369,Blood Test,2023-10-23,Duplicate,AfterEPR
+T501902,P03401,Imaging,2022-06-19,Duplicate,AfterEPR
+T983392,P03406,Imaging,2024-09-18,Duplicate,AfterEPR
+T784850,P03411,Imaging,2020-05-21,Duplicate,BeforeEPR
+T611694,P03414,Blood Test,2018-12-03,Duplicate,BeforeEPR
+T207502,P03466,Blood Test,2019-03-14,Duplicate,BeforeEPR
+T463812,P03479,Blood Test,2021-02-23,Duplicate,BeforeEPR
+T412187,P03483,Blood Test,2024-11-10,Duplicate,AfterEPR
+T482953,P03507,Blood Test,2018-09-01,Duplicate,BeforeEPR
+T891992,P03513,Blood Test,2018-02-05,Duplicate,BeforeEPR
+T221069,P03602,Blood Test,2021-07-24,Duplicate,BeforeEPR
+T459614,P03612,Blood Test,2019-11-20,Duplicate,BeforeEPR
+T113832,P03642,Microbiology,2021-12-17,Duplicate,BeforeEPR
+T399599,P03648,Blood Test,2020-12-04,Duplicate,BeforeEPR
+T886118,P03651,Blood Test,2021-12-12,Duplicate,BeforeEPR
+T666121,P03669,Blood Test,2020-10-15,Duplicate,BeforeEPR
+T995417,P03677,Blood Test,2023-05-08,Duplicate,AfterEPR
+T880940,P03712,Blood Test,2019-03-22,Duplicate,BeforeEPR
+T882576,P03729,Blood Test,2021-03-24,Duplicate,BeforeEPR
+T919564,P03739,Microbiology,2023-05-26,Duplicate,AfterEPR
+T484437,P03749,Imaging,2021-02-11,Duplicate,BeforeEPR
+T442446,P03755,Blood Test,2021-11-08,Duplicate,BeforeEPR
+T487575,P03755,Imaging,2022-12-04,Duplicate,AfterEPR
+T165118,P03768,Microbiology,2023-02-23,Duplicate,AfterEPR
+T569378,P03783,Blood Test,2023-01-10,Duplicate,AfterEPR
+T333059,P03804,Imaging,2018-01-17,Duplicate,BeforeEPR
+T980150,P03810,Blood Test,2020-01-18,Duplicate,BeforeEPR
+T740749,P03810,Imaging,2019-12-18,Duplicate,BeforeEPR
+T326967,P03821,Microbiology,2022-04-09,Duplicate,AfterEPR
+T918573,P03853,Microbiology,2019-01-26,Duplicate,BeforeEPR
+T454398,P03875,Microbiology,2024-05-07,Duplicate,AfterEPR
+T685667,P03878,Imaging,2023-11-10,Duplicate,AfterEPR
+T899685,P03883,Imaging,2023-11-02,Duplicate,AfterEPR
+T986924,P03898,Microbiology,2020-01-08,Duplicate,BeforeEPR
+T307010,P03928,Blood Test,2022-12-13,Duplicate,AfterEPR
+T477109,P03946,Microbiology,2024-11-05,Duplicate,AfterEPR
+T268482,P03958,Imaging,2021-01-27,Duplicate,BeforeEPR
+T324418,P03967,Blood Test,2021-06-04,Duplicate,BeforeEPR
+T666568,P03971,Microbiology,2020-04-02,Duplicate,BeforeEPR
+T268370,P03981,Microbiology,2019-09-03,Duplicate,BeforeEPR
+T239340,P04015,Microbiology,2021-11-07,Duplicate,BeforeEPR
+T214302,P04016,Blood Test,2018-05-15,Duplicate,BeforeEPR
+T199724,P04060,Blood Test,2024-12-01,Duplicate,AfterEPR
+T767951,P04061,Blood Test,2022-04-20,Duplicate,AfterEPR
+T340441,P04067,Imaging,2018-09-07,Duplicate,BeforeEPR
+T633229,P04130,Blood Test,2020-08-08,Duplicate,BeforeEPR
+T823482,P04132,Blood Test,2019-12-12,Duplicate,BeforeEPR
+T679769,P04133,Blood Test,2018-09-15,Duplicate,BeforeEPR
+T995015,P04141,Blood Test,2020-03-10,Duplicate,BeforeEPR
+T178581,P04144,Microbiology,2019-03-12,Duplicate,BeforeEPR
+T828717,P04156,Blood Test,2021-03-22,Duplicate,BeforeEPR
+T171707,P04156,Blood Test,2022-09-12,Duplicate,AfterEPR
+T678967,P04175,Blood Test,2024-09-23,Duplicate,AfterEPR
+T526492,P04199,Blood Test,2024-01-04,Duplicate,AfterEPR
+T944811,P04202,Blood Test,2023-02-13,Duplicate,AfterEPR
+T112227,P04227,Imaging,2019-04-27,Duplicate,BeforeEPR
+T157865,P04227,Microbiology,2018-10-03,Duplicate,BeforeEPR
+T290892,P04232,Blood Test,2023-07-15,Duplicate,AfterEPR
+T860919,P04254,Microbiology,2022-03-13,Duplicate,AfterEPR
+T610661,P04267,Imaging,2022-12-06,Duplicate,AfterEPR
+T668438,P04284,Imaging,2021-04-26,Duplicate,BeforeEPR
+T681693,P04284,Imaging,2024-02-26,Duplicate,AfterEPR
+T217933,P04309,Blood Test,2024-07-21,Duplicate,AfterEPR
+T276234,P04317,Blood Test,2024-12-19,Duplicate,AfterEPR
+T164290,P04322,Blood Test,2018-11-21,Duplicate,BeforeEPR
+T196272,P04330,Blood Test,2019-07-04,Duplicate,BeforeEPR
+T237887,P04342,Blood Test,2024-02-02,Duplicate,AfterEPR
+T595663,P04356,Imaging,2020-05-24,Duplicate,BeforeEPR
+T147656,P04362,Imaging,2023-05-01,Duplicate,AfterEPR
+T685240,P04370,Blood Test,2019-09-21,Duplicate,BeforeEPR
+T406349,P04397,Microbiology,2022-08-19,Duplicate,AfterEPR
+T950874,P04404,Imaging,2019-04-25,Duplicate,BeforeEPR
+T495495,P04406,Blood Test,2023-09-24,Duplicate,AfterEPR
+T916850,P04415,Microbiology,2020-06-16,Duplicate,BeforeEPR
+T466694,P04421,Imaging,2023-02-03,Duplicate,AfterEPR
+T202390,P04430,Blood Test,2021-10-07,Duplicate,BeforeEPR
+T711919,P04439,Imaging,2019-03-22,Duplicate,BeforeEPR
+T653679,P04439,Blood Test,2024-09-24,Duplicate,AfterEPR
+T885939,P04459,Imaging,2022-01-18,Duplicate,AfterEPR
+T433296,P04461,Imaging,2019-08-27,Duplicate,BeforeEPR
+T282916,P04575,Blood Test,2018-07-14,Duplicate,BeforeEPR
+T877505,P04609,Blood Test,2018-08-24,Duplicate,BeforeEPR
+T970093,P04646,Microbiology,2018-11-03,Duplicate,BeforeEPR
+T221280,P04659,Blood Test,2020-06-23,Duplicate,BeforeEPR
+T839681,P04672,Imaging,2018-07-17,Duplicate,BeforeEPR
+T898430,P04712,Blood Test,2023-06-18,Duplicate,AfterEPR
+T926054,P04726,Imaging,2019-01-09,Duplicate,BeforeEPR
+T420466,P04742,Microbiology,2021-02-21,Duplicate,BeforeEPR
+T775625,P04751,Microbiology,2021-12-21,Duplicate,BeforeEPR
+T790178,P04751,Imaging,2020-02-04,Duplicate,BeforeEPR
+T116619,P04764,Imaging,2020-12-20,Duplicate,BeforeEPR
+T292294,P04778,Blood Test,2024-02-08,Duplicate,AfterEPR
+T476802,P04797,Imaging,2020-03-14,Duplicate,BeforeEPR
+T683765,P04804,Blood Test,2023-02-06,Duplicate,AfterEPR
+T455943,P04818,Imaging,2019-08-18,Duplicate,BeforeEPR
+T297600,P04822,Imaging,2019-06-09,Duplicate,BeforeEPR
+T436970,P04844,Imaging,2022-06-10,Duplicate,AfterEPR
+T562237,P04861,Blood Test,2019-11-19,Duplicate,BeforeEPR
+T944149,P04864,Blood Test,2021-02-03,Duplicate,BeforeEPR
+T218888,P04870,Imaging,2018-07-10,Duplicate,BeforeEPR
+T411510,P04870,Imaging,2020-02-22,Duplicate,BeforeEPR
+T607119,P04885,Imaging,2022-08-23,Duplicate,AfterEPR
+T900649,P04886,Imaging,2024-11-26,Duplicate,AfterEPR
+T915555,P04892,Microbiology,2019-02-19,Duplicate,BeforeEPR
+T678820,P04904,Imaging,2024-03-08,Duplicate,AfterEPR
+T739376,P04907,Microbiology,2018-06-13,Duplicate,BeforeEPR
+T480561,P04911,Imaging,2022-12-01,Duplicate,AfterEPR
+T510579,P04924,Microbiology,2023-10-07,Duplicate,AfterEPR
+T223408,P04938,Blood Test,2023-06-26,Duplicate,AfterEPR
+T763600,P04956,Imaging,2022-12-13,Duplicate,AfterEPR
+T865380,P04969,Imaging,2022-08-07,Duplicate,AfterEPR
+T276827,P04982,Imaging,2022-03-14,Duplicate,AfterEPR
+T634684,P05044,Blood Test,2018-11-11,Duplicate,BeforeEPR
+T913702,P05062,Blood Test,2019-12-11,Duplicate,BeforeEPR
+T362496,P05119,Blood Test,2021-08-19,Duplicate,BeforeEPR
+T395885,P05127,Imaging,2019-07-14,Duplicate,BeforeEPR
+T624449,P05172,Blood Test,2019-10-16,Duplicate,BeforeEPR
+T470065,P05185,Blood Test,2019-08-03,Duplicate,BeforeEPR
+T408780,P05199,Blood Test,2023-04-15,Duplicate,AfterEPR
+T470014,P05208,Blood Test,2019-06-17,Duplicate,BeforeEPR
+T452245,P05210,Blood Test,2023-02-10,Duplicate,AfterEPR
+T964995,P05213,Blood Test,2022-07-01,Duplicate,AfterEPR
+T862461,P05302,Imaging,2018-10-25,Duplicate,BeforeEPR
+T943075,P05314,Microbiology,2024-06-25,Duplicate,AfterEPR
+T127729,P05320,Blood Test,2020-03-13,Duplicate,BeforeEPR
+T630691,P05354,Blood Test,2022-04-05,Duplicate,AfterEPR
+T412462,P05359,Blood Test,2022-02-11,Duplicate,AfterEPR
+T530224,P05382,Blood Test,2023-10-07,Duplicate,AfterEPR
+T598932,P05382,Imaging,2023-08-02,Duplicate,AfterEPR
+T583918,P05389,Imaging,2022-06-09,Duplicate,AfterEPR
+T497175,P05427,Imaging,2021-11-25,Duplicate,BeforeEPR
+T684431,P05429,Imaging,2024-04-15,Duplicate,AfterEPR
+T379349,P05430,Imaging,2023-10-18,Duplicate,AfterEPR
+T669945,P05438,Blood Test,2024-01-22,Duplicate,AfterEPR
+T502484,P05443,Blood Test,2019-10-11,Duplicate,BeforeEPR
+T944927,P05443,Blood Test,2021-11-24,Duplicate,BeforeEPR
+T771132,P05455,Imaging,2023-12-08,Duplicate,AfterEPR
+T842636,P05458,Microbiology,2022-06-12,Duplicate,AfterEPR
+T362767,P05468,Imaging,2020-08-19,Duplicate,BeforeEPR
+T982318,P05490,Blood Test,2023-01-20,Duplicate,AfterEPR
+T872478,P05518,Blood Test,2022-07-22,Duplicate,AfterEPR
+T697603,P05528,Blood Test,2021-01-06,Duplicate,BeforeEPR
+T809123,P05532,Blood Test,2022-08-16,Duplicate,AfterEPR
+T510731,P05563,Microbiology,2022-04-20,Duplicate,AfterEPR
+T451787,P05577,Microbiology,2023-10-21,Duplicate,AfterEPR
+T431547,P05577,Blood Test,2022-03-27,Duplicate,AfterEPR
+T173989,P05583,Blood Test,2022-05-10,Duplicate,AfterEPR
+T657046,P05584,Microbiology,2021-04-02,Duplicate,BeforeEPR
+T857254,P05591,Imaging,2020-07-24,Duplicate,BeforeEPR
+T518002,P05601,Blood Test,2018-02-03,Duplicate,BeforeEPR
+T183756,P05623,Microbiology,2021-02-22,Duplicate,BeforeEPR
+T420261,P05625,Microbiology,2020-01-22,Duplicate,BeforeEPR
+T287915,P05666,Blood Test,2021-08-24,Duplicate,BeforeEPR
+T872471,P05676,Imaging,2022-04-10,Duplicate,AfterEPR
+T403767,P05696,Blood Test,2023-05-16,Duplicate,AfterEPR
+T656572,P05743,Imaging,2019-07-07,Duplicate,BeforeEPR
+T607366,P05752,Blood Test,2024-04-07,Duplicate,AfterEPR
+T514084,P05758,Blood Test,2022-01-05,Duplicate,AfterEPR
+T883075,P05759,Microbiology,2023-02-17,Duplicate,AfterEPR
+T119005,P05765,Microbiology,2024-09-18,Duplicate,AfterEPR
+T927606,P05790,Blood Test,2022-05-07,Duplicate,AfterEPR
+T237483,P05798,Imaging,2019-05-19,Duplicate,BeforeEPR
+T679979,P05819,Imaging,2020-08-15,Duplicate,BeforeEPR
+T855210,P05840,Blood Test,2022-02-22,Duplicate,AfterEPR
+T233021,P05843,Imaging,2024-11-25,Duplicate,AfterEPR
+T780613,P05851,Blood Test,2024-09-08,Duplicate,AfterEPR
+T856897,P05866,Blood Test,2019-01-07,Duplicate,BeforeEPR
+T823320,P05873,Imaging,2018-01-06,Duplicate,BeforeEPR
+T362006,P05882,Blood Test,2022-08-16,Duplicate,AfterEPR
+T949692,P05901,Imaging,2021-01-17,Duplicate,BeforeEPR
+T630220,P05905,Blood Test,2018-12-06,Duplicate,BeforeEPR
+T226590,P05905,Imaging,2023-04-02,Duplicate,AfterEPR
+T812620,P05910,Imaging,2018-02-22,Duplicate,BeforeEPR
+T474161,P05931,Imaging,2021-12-12,Duplicate,BeforeEPR
+T486509,P05940,Blood Test,2022-05-09,Duplicate,AfterEPR
+T511109,P05945,Microbiology,2020-09-08,Duplicate,BeforeEPR
+T252933,P05954,Microbiology,2018-02-12,Duplicate,BeforeEPR
+T102273,P05959,Blood Test,2019-04-10,Duplicate,BeforeEPR
+T104728,P05966,Blood Test,2021-02-09,Duplicate,BeforeEPR
+T252638,P05967,Imaging,2024-04-04,Duplicate,AfterEPR
+T510937,P06023,Blood Test,2022-09-03,Duplicate,AfterEPR
+T666186,P06026,Imaging,2020-09-15,Duplicate,BeforeEPR
+T139701,P06038,Blood Test,2024-08-09,Duplicate,AfterEPR
+T795510,P06117,Blood Test,2024-03-13,Duplicate,AfterEPR
+T454063,P06120,Imaging,2018-01-18,Duplicate,BeforeEPR
+T498195,P06121,Blood Test,2021-05-06,Duplicate,BeforeEPR
+T285985,P06131,Microbiology,2019-04-24,Duplicate,BeforeEPR
+T136918,P06138,Imaging,2018-02-12,Duplicate,BeforeEPR
+T679109,P06147,Blood Test,2024-08-11,Duplicate,AfterEPR
+T596011,P06163,Blood Test,2019-09-21,Duplicate,BeforeEPR
+T469315,P06191,Imaging,2022-10-08,Duplicate,AfterEPR
+T223440,P06235,Imaging,2022-08-26,Duplicate,AfterEPR
+T250170,P06268,Blood Test,2021-01-19,Duplicate,BeforeEPR
+T675419,P06271,Imaging,2024-10-02,Duplicate,AfterEPR
+T982634,P06273,Microbiology,2018-05-06,Duplicate,BeforeEPR
+T653183,P06275,Imaging,2024-10-24,Duplicate,AfterEPR
+T995056,P06284,Blood Test,2018-08-13,Duplicate,BeforeEPR
+T642640,P06319,Blood Test,2022-03-12,Duplicate,AfterEPR
+T681009,P06325,Blood Test,2022-11-12,Duplicate,AfterEPR
+T625863,P06354,Blood Test,2019-11-14,Duplicate,BeforeEPR
+T396827,P06357,Blood Test,2020-02-19,Duplicate,BeforeEPR
+T654152,P06383,Imaging,2021-11-16,Duplicate,BeforeEPR
+T145746,P06400,Blood Test,2021-04-04,Duplicate,BeforeEPR
+T112942,P06424,Blood Test,2018-02-11,Duplicate,BeforeEPR
+T185943,P06431,Imaging,2018-11-23,Duplicate,BeforeEPR
+T438601,P06435,Imaging,2022-03-09,Duplicate,AfterEPR
+T450192,P06437,Imaging,2019-05-16,Duplicate,BeforeEPR
+T862418,P06452,Microbiology,2022-11-07,Duplicate,AfterEPR
+T932449,P06456,Imaging,2020-10-10,Duplicate,BeforeEPR
+T769408,P06457,Imaging,2019-10-20,Duplicate,BeforeEPR
+T316383,P06462,Microbiology,2024-01-02,Duplicate,AfterEPR
+T286187,P06465,Blood Test,2019-05-12,Duplicate,BeforeEPR
+T753134,P06470,Microbiology,2023-12-21,Duplicate,AfterEPR
+T594825,P06516,Imaging,2018-09-23,Duplicate,BeforeEPR
+T521286,P06517,Microbiology,2021-08-14,Duplicate,BeforeEPR
+T376566,P06549,Imaging,2022-12-09,Duplicate,AfterEPR
+T655413,P06551,Imaging,2022-10-11,Duplicate,AfterEPR
+T711573,P06555,Imaging,2018-09-13,Duplicate,BeforeEPR
+T934101,P06568,Microbiology,2018-11-21,Duplicate,BeforeEPR
+T159858,P06594,Microbiology,2019-01-17,Duplicate,BeforeEPR
+T949149,P06600,Imaging,2018-02-08,Duplicate,BeforeEPR
+T138208,P06606,Imaging,2019-03-02,Duplicate,BeforeEPR
+T354161,P06619,Blood Test,2019-03-24,Duplicate,BeforeEPR
+T828184,P06640,Imaging,2022-03-01,Duplicate,AfterEPR
+T914122,P06650,Imaging,2022-05-17,Duplicate,AfterEPR
+T842024,P06664,Microbiology,2021-05-11,Duplicate,BeforeEPR
+T538220,P06737,Microbiology,2022-04-02,Duplicate,AfterEPR
+T171647,P06741,Blood Test,2020-12-04,Duplicate,BeforeEPR
+T915268,P06761,Blood Test,2020-10-03,Duplicate,BeforeEPR
+T651351,P06789,Blood Test,2021-11-26,Duplicate,BeforeEPR
+T568600,P06850,Blood Test,2019-10-27,Duplicate,BeforeEPR
+T157631,P06893,Microbiology,2023-01-17,Duplicate,AfterEPR
+T612949,P06904,Blood Test,2019-02-19,Duplicate,BeforeEPR
+T161490,P06905,Imaging,2023-07-27,Duplicate,AfterEPR
+T271288,P06979,Blood Test,2024-05-27,Duplicate,AfterEPR
+T212367,P06994,Blood Test,2021-03-26,Duplicate,BeforeEPR
+T327759,P06994,Microbiology,2021-03-13,Duplicate,BeforeEPR
+T969514,P06994,Blood Test,2019-07-15,Duplicate,BeforeEPR
+T680219,P06998,Imaging,2020-01-15,Duplicate,BeforeEPR
+T701915,P07011,Microbiology,2023-10-03,Duplicate,AfterEPR
+T680500,P07019,Blood Test,2022-11-18,Duplicate,AfterEPR
+T781096,P07027,Imaging,2020-06-02,Duplicate,BeforeEPR
+T357976,P07065,Blood Test,2023-10-03,Duplicate,AfterEPR
+T102864,P07090,Blood Test,2023-09-09,Duplicate,AfterEPR
+T381102,P07104,Microbiology,2018-10-25,Duplicate,BeforeEPR
+T114945,P07123,Imaging,2022-01-21,Duplicate,AfterEPR
+T123847,P07160,Imaging,2022-04-05,Duplicate,AfterEPR
+T209981,P07168,Blood Test,2018-10-15,Duplicate,BeforeEPR
+T553680,P07173,Blood Test,2019-06-02,Duplicate,BeforeEPR
+T429775,P07178,Microbiology,2024-04-18,Duplicate,AfterEPR
+T842606,P07198,Blood Test,2021-10-11,Duplicate,BeforeEPR
+T101140,P07218,Imaging,2019-04-15,Duplicate,BeforeEPR
+T975226,P07239,Blood Test,2018-07-22,Duplicate,BeforeEPR
+T455817,P07267,Blood Test,2024-08-14,Duplicate,AfterEPR
+T233179,P07275,Microbiology,2024-12-17,Duplicate,AfterEPR
+T607036,P07279,Blood Test,2024-06-19,Duplicate,AfterEPR
+T549801,P07299,Microbiology,2022-10-24,Duplicate,AfterEPR
+T114958,P07349,Microbiology,2024-09-19,Duplicate,AfterEPR
+T499153,P07372,Microbiology,2024-11-27,Duplicate,AfterEPR
+T485308,P07373,Microbiology,2019-02-07,Duplicate,BeforeEPR
+T917360,P07377,Microbiology,2019-10-06,Duplicate,BeforeEPR
+T349147,P07379,Blood Test,2019-02-22,Duplicate,BeforeEPR
+T899695,P07386,Blood Test,2021-06-09,Duplicate,BeforeEPR
+T937002,P07387,Blood Test,2022-06-26,Duplicate,AfterEPR
+T534718,P07392,Blood Test,2022-02-12,Duplicate,AfterEPR
+T229725,P07393,Blood Test,2021-12-01,Duplicate,BeforeEPR
+T356169,P07441,Microbiology,2020-05-25,Duplicate,BeforeEPR
+T415029,P07461,Microbiology,2020-03-08,Duplicate,BeforeEPR
+T975438,P07497,Imaging,2023-09-27,Duplicate,AfterEPR

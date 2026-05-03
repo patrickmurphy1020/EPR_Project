@@ -429,3 +429,96 @@ duplicate_df = pd.DataFrame(duplicate_tests_list, columns=[
 duplicate_df.to_csv(OUTPUT_PATH_DUP, index=False)
 
 print(f"DuplicateTests table created with {len(duplicate_df)} rows → {OUTPUT_PATH_DUP}")
+
+
+# ============================================================
+#  STAFF WORKFLOW TABLE SIMULATION
+# ============================================================
+
+import numpy as np
+import pandas as pd
+from datetime import datetime, timedelta
+import random
+import os
+
+# -----------------------------
+# CONFIGURATION
+# -----------------------------
+OUTPUT_PATH_WORKFLOW = "../data/simulated/staff_workflow.csv"
+
+# Ensure directory exists
+os.makedirs(os.path.dirname(OUTPUT_PATH_WORKFLOW), exist_ok=True)
+
+# -----------------------------
+# 1. Workflow assumptions
+# -----------------------------
+roles = ["Nurse", "Doctor", "Admin"]
+
+tasks = {
+    "Documentation": {"Before": 12, "After": 7},
+    "Ordering Tests": {"Before": 6, "After": 3},
+    "Updating Notes": {"Before": 5, "After": 3},
+    "Discharge Summary": {"Before": 15, "After": 10}
+}
+
+# Number of workflow samples to generate
+NUM_WORKFLOW_ROWS = 10000
+
+workflow_rows = []
+
+# -----------------------------
+# 2. Generate workflow measurements
+# -----------------------------
+for _ in range(NUM_WORKFLOW_ROWS):
+
+    role = random.choice(roles)
+    task = random.choice(list(tasks.keys()))
+
+    # Randomly assign Before/After EPR period
+    period = np.random.choice(["BeforeEPR", "AfterEPR"], p=[0.45, 0.55])
+
+    # Select mean time based on period
+    if period == "BeforeEPR":
+        mean_time = tasks[task]["Before"]
+        year = np.random.randint(2018, 2022)
+    else:
+        mean_time = tasks[task]["After"]
+        year = np.random.randint(2022, 2025)
+
+    # Generate realistic time with slight variation
+    time_taken = max(1, int(np.random.normal(mean_time, mean_time * 0.15)))
+
+    # Random date
+    date = datetime(
+        year,
+        np.random.randint(1, 13),
+        np.random.randint(1, 28)
+    )
+
+    workflow_rows.append([
+        f"W{random.randint(100000, 999999)}",
+        role,
+        task,
+        time_taken,
+        date,
+        period
+    ])
+
+# -----------------------------
+# 3. Build DataFrame
+# -----------------------------
+workflow_df = pd.DataFrame(workflow_rows, columns=[
+    "WorkflowID",
+    "StaffRole",
+    "TaskName",
+    "TimeMinutes",
+    "Date",
+    "EPRPeriod"
+])
+
+# -----------------------------
+# 4. Save to CSV
+# -----------------------------
+workflow_df.to_csv(OUTPUT_PATH_WORKFLOW, index=False)
+
+print(f"StaffWorkflow table created with {len(workflow_df)} rows → {OUTPUT_PATH_WORKFLOW}")
