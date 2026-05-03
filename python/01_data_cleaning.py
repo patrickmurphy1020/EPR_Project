@@ -3,15 +3,16 @@ import pandas as pd
 # Correct path (script is inside python/)
 dma_path = "../data/real/nhs/digital_maturity_assessment.xlsx"
 
-# -----------------------------
-# LOAD SHEET 2 — PILLAR SCORES
-# -----------------------------
+# ============================================================
+# LOAD SHEET 2 — PILLAR SCORES (SC - 2025 Pillar Summary)
+# ============================================================
 pillars = pd.read_excel(
     dma_path,
     sheet_name="SC - 2025 Pillar Summary",
     skiprows=10
 )
 
+# Clean column names
 pillars.columns = (
     pillars.columns
     .str.strip()
@@ -23,6 +24,9 @@ pillars.columns = (
 # Drop empty first column if present
 if "unnamed:_0" in pillars.columns:
     pillars = pillars.drop(columns=["unnamed:_0"])
+
+# Filter to Secondary Care only
+pillars = pillars[pillars["care_setting"] == "Secondary Care"]
 
 # Rename pillar columns
 pillars = pillars.rename(columns={
@@ -36,6 +40,7 @@ pillars = pillars.rename(columns={
     "healthy_populations": "Pillar_HealthyPopulations"
 })
 
+# Select only needed columns
 pillars = pillars[[
     "TrustName",
     "Pillar_WellLed",
@@ -47,15 +52,16 @@ pillars = pillars[[
     "Pillar_HealthyPopulations"
 ]]
 
-# -----------------------------
-# LOAD SHEET 3 — OVERALL SCORES
-# -----------------------------
+# ============================================================
+# LOAD SHEET 3 — OVERALL SCORES (SC - 24 vs 25 Overall DMA)
+# ============================================================
 overall = pd.read_excel(
     dma_path,
     sheet_name="SC - 24 vs 25 Overall DMA",
     skiprows=10
 )
 
+# Clean column names
 overall.columns = (
     overall.columns
     .str.strip()
@@ -68,6 +74,9 @@ overall.columns = (
 if "unnamed:_0" in overall.columns:
     overall = overall.drop(columns=["unnamed:_0"])
 
+# Filter to Secondary Care only
+overall = overall[overall["care_setting"] == "Secondary Care"]
+
 # Rename columns
 overall = overall.rename(columns={
     "provider": "TrustName",
@@ -75,15 +84,16 @@ overall = overall.rename(columns={
     "2024_average": "DMAOverall2024"
 })
 
+# Select only needed columns
 overall = overall[[
     "TrustName",
     "DMAOverall2025",
     "DMAOverall2024"
 ]]
 
-# -----------------------------
+# ============================================================
 # MERGE BOTH SHEETS
-# -----------------------------
+# ============================================================
 merged = pd.merge(
     pillars,
     overall,
@@ -91,9 +101,12 @@ merged = pd.merge(
     how="left"
 )
 
-# -----------------------------
+# Remove blank rows (trailing junk from Excel)
+merged = merged.dropna(subset=["TrustName"])
+
+# ============================================================
 # SAVE CLEANED OUTPUT
-# -----------------------------
+# ============================================================
 output_path = "../data/processed/digital_maturity_clean.csv"
 merged.to_csv(output_path, index=False)
 
