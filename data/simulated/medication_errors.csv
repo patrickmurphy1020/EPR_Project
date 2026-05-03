@@ -1,0 +1,49 @@
+ErrorID,PatientID,ErrorType,Severity,Date,EPRPeriod
+E372507,P00297,Allergy Missed,Low,2023-06-04,AfterEPR
+E696003,P00588,Allergy Missed,Low,2020-05-20,BeforeEPR
+E731339,P00780,Wrong Dose,High,2024-03-09,AfterEPR
+E529440,P01209,Transcription Error,Low,2020-08-12,BeforeEPR
+E554877,P01484,Transcription Error,High,2018-08-27,BeforeEPR
+E253534,P01515,Transcription Error,Medium,2024-03-07,AfterEPR
+E634227,P01612,Omission,Low,2020-01-23,BeforeEPR
+E665070,P01914,Wrong Patient,Low,2021-07-19,BeforeEPR
+E111090,P01975,Wrong Patient,Medium,2022-03-03,AfterEPR
+E609800,P02298,Omission,Low,2024-05-18,AfterEPR
+E280881,P02437,Omission,Medium,2023-06-06,AfterEPR
+E374419,P02531,Allergy Missed,Low,2020-01-07,BeforeEPR
+E814684,P02724,Wrong Patient,Low,2020-02-02,BeforeEPR
+E797998,P02733,Allergy Missed,Low,2022-08-26,AfterEPR
+E218205,P02783,Wrong Dose,Low,2022-02-01,AfterEPR
+E825812,P02822,Transcription Error,Low,2018-12-25,BeforeEPR
+E386301,P02988,Transcription Error,Medium,2024-10-10,AfterEPR
+E535490,P03117,Transcription Error,Low,2023-02-01,AfterEPR
+E455003,P03125,Wrong Dose,Low,2023-08-08,AfterEPR
+E289030,P03186,Transcription Error,Low,2022-02-19,AfterEPR
+E426753,P03256,Wrong Dose,Medium,2021-11-01,BeforeEPR
+E606474,P03351,Wrong Patient,Low,2020-10-05,BeforeEPR
+E799167,P03455,Allergy Missed,Medium,2019-02-24,BeforeEPR
+E210333,P03799,Transcription Error,Low,2021-06-16,BeforeEPR
+E309861,P03941,Wrong Dose,Low,2019-09-27,BeforeEPR
+E881673,P04180,Wrong Patient,Low,2024-06-02,AfterEPR
+E198809,P04249,Allergy Missed,Medium,2018-05-15,BeforeEPR
+E262501,P04445,Transcription Error,Low,2024-07-26,AfterEPR
+E843891,P04484,Allergy Missed,Low,2023-06-27,AfterEPR
+E822200,P04645,Omission,High,2024-04-13,AfterEPR
+E873104,P04956,Allergy Missed,Low,2023-06-27,AfterEPR
+E642529,P04997,Omission,Low,2023-10-02,AfterEPR
+E957630,P05098,Omission,Low,2024-03-18,AfterEPR
+E103977,P05695,Omission,Low,2022-10-26,AfterEPR
+E507363,P05770,Allergy Missed,Medium,2023-09-15,AfterEPR
+E660050,P05923,Allergy Missed,Low,2020-11-02,BeforeEPR
+E141897,P06016,Transcription Error,Low,2023-08-02,AfterEPR
+E375333,P06022,Wrong Patient,Low,2024-02-06,AfterEPR
+E570159,P06338,Omission,Low,2022-09-10,AfterEPR
+E787072,P06520,Wrong Dose,Medium,2024-02-18,AfterEPR
+E561459,P06630,Wrong Dose,High,2021-03-16,BeforeEPR
+E821663,P06638,Wrong Dose,Low,2019-01-20,BeforeEPR
+E448815,P06785,Omission,Low,2019-05-11,BeforeEPR
+E238791,P06877,Wrong Dose,Medium,2023-01-12,AfterEPR
+E536365,P07023,Transcription Error,Low,2018-12-25,BeforeEPR
+E942694,P07034,Wrong Patient,Low,2020-11-13,BeforeEPR
+E262998,P07126,Wrong Patient,Low,2024-04-16,AfterEPR
+E555536,P07393,Allergy Missed,Low,2021-04-05,BeforeEPR
