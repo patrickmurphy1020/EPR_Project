@@ -1,18 +1,17 @@
 import pandas as pd
-import os
 
-# ============================================================
-#  CLEAN DIGITAL MATURITY ASSESSMENT (DMA)
-# ============================================================
-
+# Correct path (script is inside python/)
 dma_path = "../data/real/nhs/digital_maturity_assessment.xlsx"
 
 # -----------------------------
-# Load trust-level pillar scores (Sheet 2)
+# LOAD SHEET 2 — PILLAR SCORES
 # -----------------------------
-pillars = pd.read_excel(dma_path, sheet_name="SC - 2025 Pillar Summary")
+pillars = pd.read_excel(
+    dma_path,
+    sheet_name="SC - 2025 Pillar Summary",
+    skiprows=10
+)
 
-# Clean column names
 pillars.columns = (
     pillars.columns
     .str.strip()
@@ -21,24 +20,41 @@ pillars.columns = (
     .str.lower()
 )
 
+# Drop empty first column if present
+if "unnamed:_0" in pillars.columns:
+    pillars = pillars.drop(columns=["unnamed:_0"])
+
 # Rename pillar columns
 pillars = pillars.rename(columns={
     "provider": "TrustName",
-    "ics": "ICSName",
-    "region": "Region",
-    "well_led": "DMAWellLed",
-    "ensure_smart_foundations": "DMASmartFoundations",
-    "safe_practice": "DMASafePractice",
-    "support_workforce": "DMAWorkforce",
-    "empower_people": "DMAEmpowerPeople",
-    "improve_care": "DMAImproveCare",
-    "healthy_populations": "DMAHealthyPopulations"
+    "well_led": "Pillar_WellLed",
+    "ensure_smart_foundations": "Pillar_SmartFoundations",
+    "safe_practice": "Pillar_SafePractice",
+    "support_workforce": "Pillar_Workforce",
+    "empower_people": "Pillar_EmpowerPeople",
+    "improve_care": "Pillar_ImproveCare",
+    "healthy_populations": "Pillar_HealthyPopulations"
 })
 
+pillars = pillars[[
+    "TrustName",
+    "Pillar_WellLed",
+    "Pillar_SmartFoundations",
+    "Pillar_SafePractice",
+    "Pillar_Workforce",
+    "Pillar_EmpowerPeople",
+    "Pillar_ImproveCare",
+    "Pillar_HealthyPopulations"
+]]
+
 # -----------------------------
-# Load trust-level overall scores (Sheet 3)
+# LOAD SHEET 3 — OVERALL SCORES
 # -----------------------------
-overall = pd.read_excel(dma_path, sheet_name="SC - 24 vs 25 Overall DMA")
+overall = pd.read_excel(
+    dma_path,
+    sheet_name="SC - 24 vs 25 Overall DMA",
+    skiprows=10
+)
 
 overall.columns = (
     overall.columns
@@ -48,35 +64,37 @@ overall.columns = (
     .str.lower()
 )
 
+# Drop empty first column
+if "unnamed:_0" in overall.columns:
+    overall = overall.drop(columns=["unnamed:_0"])
+
+# Rename columns
 overall = overall.rename(columns={
     "provider": "TrustName",
-    "ics": "ICSName",
-    "region": "Region",
     "2025_average": "DMAOverall2025",
     "2024_average": "DMAOverall2024"
 })
 
+overall = overall[[
+    "TrustName",
+    "DMAOverall2025",
+    "DMAOverall2024"
+]]
+
 # -----------------------------
-# Merge pillar + overall scores
+# MERGE BOTH SHEETS
 # -----------------------------
-dma_merged = pd.merge(
+merged = pd.merge(
     pillars,
-    overall[["TrustName", "DMAOverall2025", "DMAOverall2024"]],
+    overall,
     on="TrustName",
     how="left"
 )
 
 # -----------------------------
-# Filter to Leeds Teaching Hospitals NHS Trust
+# SAVE CLEANED OUTPUT
 # -----------------------------
-dma_ltht = dma_merged[
-    dma_merged["TrustName"].str.contains("Leeds Teaching Hospitals", case=False, na=False)
-]
+output_path = "../data/processed/digital_maturity_clean.csv"
+merged.to_csv(output_path, index=False)
 
-# -----------------------------
-# Save cleaned dataset
-# -----------------------------
-os.makedirs("../data/processed", exist_ok=True)
-dma_ltht.to_csv("../data/processed/digital_maturity_clean.csv", index=False)
-
-print("Digital Maturity dataset cleaned and saved to /data/processed/")
+print("Digital Maturity dataset cleaned and saved to:", output_path)
