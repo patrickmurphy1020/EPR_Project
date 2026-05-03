@@ -200,3 +200,133 @@ Model: Linear Regression / Ridge Regression
 - How this project reflects real BI work  
 
 ---
+
+
+# **EPR Impact Modelling Project — Progress Summary (Datasets 1–3 Completed)**
+
+You have now built a **fully validated, trust‑level NHS data pipeline** covering three major national datasets. Each dataset has been downloaded, inspected, cleaned, validated, and standardised into a consistent structure ready for modelling and Power BI.
+
+---
+
+## **1. Digital Maturity Assessment (DMA) — Completed**
+
+### **What was done**
+- Identified and extracted the correct DMA dataset from NHS England.
+- Cleaned and standardised:
+  - Trust names  
+  - ODS codes  
+  - Digital maturity indicators  
+- Produced a trust‑level dataset containing:
+  - EPR adoption status  
+  - Digital capability scores  
+  - Trust identifiers  
+
+### **Why it matters**
+DMA provides the **baseline digital maturity** for each trust — essential for modelling the impact of EPR rollout.
+
+---
+
+## **2. Outpatient Activity (OPA) — Completed**
+
+### **What was done**
+- Downloaded the correct Outpatient Activity CSV.
+- Filtered to:
+  - **Provider level only**
+  - **Annual totals (2024–25)**
+  - **Attendance Summary by Gender**
+- Pivoted into a clean wide format.
+- Calculated:
+  - Total attended  
+  - Total DNA  
+  - Total patient cancellations  
+  - Total hospital cancellations  
+  - Total appointments  
+- Filtered to **Acute NHS Trusts only** using ODS code rules.
+- Validated the final dataset (150 trusts, no duplicates, no missing values).
+
+### **Why it matters**
+Outpatient activity is a major driver of operational pressure and a key indicator of how EPR adoption affects productivity.
+
+---
+
+## **3. RTT Waiting List (Incomplete Pathways) — Completed**
+
+### **What was done**
+- Downloaded the **Full CSV Provider‑Level** RTT dataset for March 2025.
+- Validated the raw file (185k rows, 121 columns, 105 week buckets).
+- Filtered to:
+  - **Incomplete Pathways only (Part_2)**
+  - **Acute NHS Trusts only (ODS codes starting with R, length 3)**
+- Automatically detected all week‑bucket columns.
+- Calculated key RTT metrics:
+  - **Total waiting list**
+  - **52‑week waits**
+  - **65‑week waits**
+  - **78‑week waits**
+  - **104‑week waits**
+- Aggregated across all Treatment Function Codes.
+- Produced a clean trust‑level dataset (151 trusts).
+- Validated the final output (no missing values, no negatives, realistic ranges).
+
+### **Why it matters**
+RTT is one of the **core NHS performance metrics**, and long waits are central to EPR business cases.
+
+---
+
+## **4. Project Structure Now in Place**
+
+
+This is a clean, professional, reproducible NHS BI project structure.
+
+---
+
+## **5. Skills Demonstrated So Far**
+
+### **Technical**
+- Python (pandas) data cleaning  
+- Pivoting, grouping, aggregating  
+- Regex filtering for ODS codes  
+- Automated column detection  
+- Validation scripting  
+- Reproducible pipelines  
+
+### **NHS domain knowledge**
+- RTT parts (1A, 1B, 2, 2A, 3)  
+- Week‑bucket structures  
+- Trust‑level vs provider‑level distinctions  
+- Outpatient activity measures  
+- Digital maturity scoring  
+
+### **Data engineering**
+- Consistent naming conventions  
+- Clean folder structure  
+- Reusable scripts  
+- Trust‑level standardisation across datasets  
+
+### **Analytical readiness**
+All three datasets are now:
+
+- Trust‑level  
+- Clean  
+- Numeric  
+- Joinable  
+- Validated  
+
+---
+
+## **6. Current Position in the Project**
+
+You have completed **3 of 6 datasets**:
+
+1. **DMA** — ✔️  
+2. **Outpatients** — ✔️  
+3. **RTT** — ✔️  
+4. **Next dataset: ready to begin**  
+
+### Options for dataset 4:
+- **Diagnostics (DM01)** — recommended next  
+- **A&E / UEC**  
+- **Workforce**  
+
+---
+
