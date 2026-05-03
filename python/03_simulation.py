@@ -332,3 +332,100 @@ errors_df = pd.DataFrame(errors_list, columns=[
 errors_df.to_csv(OUTPUT_PATH_ERRORS, index=False)
 
 print(f"MedicationErrors table created with {len(errors_df)} rows → {OUTPUT_PATH_ERRORS}")
+
+
+# ============================================================
+#  DUPLICATE TESTS TABLE SIMULATION
+# ============================================================
+
+import numpy as np
+import pandas as pd
+from datetime import datetime, timedelta
+import random
+import os
+
+# Load patients table
+patients_df = pd.read_csv("../data/simulated/patients.csv")
+
+# -----------------------------
+# CONFIGURATION
+# -----------------------------
+OUTPUT_PATH_DUP = "../data/simulated/duplicate_tests.csv"
+
+# Ensure directory exists
+os.makedirs(os.path.dirname(OUTPUT_PATH_DUP), exist_ok=True)
+
+# -----------------------------
+# 1. Duplicate test rate assumptions
+# -----------------------------
+# NHS studies show EPR reduces duplicate tests by ~20–30%
+DUP_RATE_BEFORE = 0.045   # 4.5% of patients
+DUP_RATE_AFTER = 0.028    # 2.8% of patients
+
+test_types = {
+    "Blood Test": 0.50,
+    "Imaging": 0.30,
+    "Microbiology": 0.20
+}
+
+duplicate_tests_list = []
+
+# -----------------------------
+# 2. Generate duplicate tests
+# -----------------------------
+for _, row in patients_df.iterrows():
+    patient_id = row["PatientID"]
+
+    # Determine EPR periods for this patient
+    if row["RegistrationDate"] < "2022-01-01":
+        periods = ["BeforeEPR", "AfterEPR"]
+    else:
+        periods = ["AfterEPR"]
+
+    for period in periods:
+        # Determine number of duplicate tests
+        if period == "BeforeEPR":
+            num_tests = np.random.poisson(DUP_RATE_BEFORE)
+        else:
+            num_tests = np.random.poisson(DUP_RATE_AFTER)
+
+        for _ in range(num_tests):
+            # Random date in correct period
+            if period == "BeforeEPR":
+                year = np.random.randint(2018, 2022)
+            else:
+                year = np.random.randint(2022, 2025)
+
+            date = datetime(
+                year,
+                np.random.randint(1, 13),
+                np.random.randint(1, 28)
+            )
+
+            duplicate_tests_list.append([
+                f"T{random.randint(100000, 999999)}",
+                patient_id,
+                np.random.choice(list(test_types.keys()), p=list(test_types.values())),
+                date,
+                "Duplicate",
+                period
+            ])
+
+# -----------------------------
+# 3. Build DataFrame
+# -----------------------------
+duplicate_df = pd.DataFrame(duplicate_tests_list, columns=[
+    "TestID",
+    "PatientID",
+    "TestType",
+    "Date",
+    "Reason",
+    "EPRPeriod"
+])
+
+# -----------------------------
+# 4. Save to CSV
+# -----------------------------
+duplicate_df.to_csv(OUTPUT_PATH_DUP, index=False)
+
+print(f"DuplicateTests table created with {len(duplicate_df)} rows → {OUTPUT_PATH_DUP}")
