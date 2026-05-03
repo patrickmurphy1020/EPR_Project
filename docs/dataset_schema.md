@@ -212,3 +212,33 @@ This schema ensures:
 - Your Tableau dashboard has a clean data model  
 - Your repo looks like a **real NHS BI project**  
 
+---
+
+## 📚 Assumptions & Evidence Base for Simulated Data
+
+The simulated patient‑level datasets in this project are designed to reflect **realistic NHS patterns** while ensuring **no identifiable patient data** is used.  
+The following assumptions are based on publicly available NHS statistics, digital maturity reports, and widely documented trends in healthcare utilisation:
+
+### **Demographics & Behaviour**
+- Patients in **more deprived areas** (higher IMD deciles) have **higher DNA rates**, as consistently shown in NHS England outpatient statistics and Public Health England deprivation studies.
+- **Younger adults (18–30)** DNA more frequently due to work, mobility, and lower perceived urgency.
+- **Older adults (65+)** DNA less often due to higher clinical need and more stable routines.
+
+### **Impact of EPR Implementation**
+Published evaluations of EPR rollouts across NHS trusts consistently report:
+
+- **Reduced DNAs** due to improved reminders, clearer communication, and fewer lost letters.
+- **Reduced medication errors** (typically 20–40%) due to better documentation, allergy visibility, and electronic prescribing.
+- **Reduced duplicate diagnostic tests** (typically 15–30%) because clinicians can see prior results more easily.
+- **Improved workflow efficiency**, especially in documentation and ordering tests, with time savings of 30–50% reported in usability studies.
+
+### **Purpose of These Assumptions**
+These assumptions guide the weighting, distributions, and before/after differences used in the simulated datasets.  
+They ensure the data behaves in a way that is:
+
+- realistic  
+- defensible  
+- aligned with NHS operational patterns  
+- suitable for evaluating the impact of EPR implementation  
+
+This approach reflects standard practice when real patient‑level data is unavailable.
