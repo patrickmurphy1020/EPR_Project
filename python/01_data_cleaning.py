@@ -25,8 +25,8 @@ pillars.columns = (
 if "unnamed:_0" in pillars.columns:
     pillars = pillars.drop(columns=["unnamed:_0"])
 
-# Filter to Secondary Care only
-pillars = pillars[pillars["care_setting"] == "Secondary Care"]
+# Filter to Acute (Secondary Care)
+pillars = pillars[pillars["care_setting"].str.contains("Acute", case=False, na=False)]
 
 # Rename pillar columns
 pillars = pillars.rename(columns={
@@ -74,8 +74,8 @@ overall.columns = (
 if "unnamed:_0" in overall.columns:
     overall = overall.drop(columns=["unnamed:_0"])
 
-# Filter to Secondary Care only
-overall = overall[overall["care_setting"] == "Secondary Care"]
+# Filter to Acute (Secondary Care)
+overall = overall[overall["care_setting"].str.contains("Acute", case=False, na=False)]
 
 # Rename columns
 overall = overall.rename(columns={
