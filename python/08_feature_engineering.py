@@ -95,6 +95,7 @@ df["EPR_Readiness"] = (
 # ============================
 # Save engineered dataset
 # ============================
+df = df.dropna(subset=["Org Name", "Org Code"])
 
 df.to_csv("../data/processed/master_trust_dataset_engineered.csv", index=False)
 
