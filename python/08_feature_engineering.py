@@ -21,13 +21,20 @@ pillar_cols = [
 df["DMA_Average"] = df[pillar_cols].mean(axis=1)
 
 # ============================
-# 2. RTT FEATURES
+# 2. RTT FEATURES (FIXED)
 # ============================
 
-# Avoid division by zero
-df["RTT_Backlog_Ratio"] = df["WL_104w"] / df["Total_Waiting_List"].replace(0, pd.NA)
-df["RTT_65w_Ratio"] = df["WL_65w"] / df["Total_Waiting_List"].replace(0, pd.NA)
-df["RTT_78w_Ratio"] = df["WL_78w"] / df["Total_Waiting_List"].replace(0, pd.NA)
+den = df["Total_Waiting_List"].replace(0, pd.NA)
+
+# Main NHS backlog measure
+df["RTT_Backlog_Ratio"] = (df["WL_52w"] / den) * 100
+
+# Additional long-wait metrics
+df["RTT_65w_Ratio"] = (df["WL_65w"] / den) * 100
+df["RTT_78w_Ratio"] = (df["WL_78w"] / den) * 100
+df["RTT_104w_Ratio"] = (df["WL_104w"] / den) * 100
+
+
 
 # ============================
 # 3. OUTPATIENT FEATURES
