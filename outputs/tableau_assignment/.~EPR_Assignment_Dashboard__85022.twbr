@@ -1,0 +1,1835 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20253.26.0109.0333                               -->
+<workbook original-version='18.1' source-build='2025.3.2 (20253.26.0109.0333)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='master_trust_dataset_engineered' inline='true' name='federated.0pn7pf014dpxlh14loybc1hkbmwl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='master_trust_dataset_engineered' name='textscan.0wuxe7n132gxfu17ajhra067pvnu'>
+            <connection class='textscan' directory='Data/processed' filename='master_trust_dataset_engineered.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0wuxe7n132gxfu17ajhra067pvnu' name='master_trust_dataset_engineered.csv' table='[master_trust_dataset_engineered#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IE' separator=','>
+            <column datatype='string' name='Org Code' ordinal='0' />
+            <column datatype='string' name='Org Name' ordinal='1' />
+            <column datatype='string' name='Unnamed: 0' ordinal='2' />
+            <column datatype='string' name='Region' ordinal='3' />
+            <column datatype='string' name='ICS' ordinal='4' />
+            <column datatype='string' name='TrustName' ordinal='5' />
+            <column datatype='string' name='Care Setting' ordinal='6' />
+            <column datatype='real' name='Pillar_WellLed' ordinal='7' />
+            <column datatype='real' name='Pillar_SmartFoundations' ordinal='8' />
+            <column datatype='real' name='Pillar_SafePractice' ordinal='9' />
+            <column datatype='real' name='Pillar_Workforce' ordinal='10' />
+            <column datatype='real' name='Pillar_EmpowerPeople' ordinal='11' />
+            <column datatype='real' name='Pillar_ImproveCare' ordinal='12' />
+            <column datatype='real' name='Pillar_HealthyPopulations' ordinal='13' />
+            <column datatype='string' name='Org Name_x' ordinal='14' />
+            <column datatype='string' name='Org Name_y' ordinal='15' />
+            <column datatype='real' name='Total_Waiting_List' ordinal='16' />
+            <column datatype='real' name='WL_52w' ordinal='17' />
+            <column datatype='real' name='WL_65w' ordinal='18' />
+            <column datatype='real' name='WL_78w' ordinal='19' />
+            <column datatype='real' name='WL_104w' ordinal='20' />
+            <column datatype='real' name='Total_Attended' ordinal='21' />
+            <column datatype='real' name='Total_DNA' ordinal='22' />
+            <column datatype='real' name='Total_Cancelled_Patient' ordinal='23' />
+            <column datatype='real' name='Total_Cancelled_Hospital' ordinal='24' />
+            <column datatype='real' name='Total_Appointments' ordinal='25' />
+            <column datatype='real' name='Total Waiting List' ordinal='26' />
+            <column datatype='real' name='Number waiting 6+ Weeks' ordinal='27' />
+            <column datatype='real' name='Number waiting 13+ Weeks' ordinal='28' />
+            <column datatype='real' name='Percentage waiting 6+ weeks' ordinal='29' />
+            <column datatype='real' name='A&amp;E attendances Type 1' ordinal='30' />
+            <column datatype='real' name='Attendances over 4hrs Type 1' ordinal='31' />
+            <column datatype='real' name='Patients who have waited 4-12 hs from DTA to admission' ordinal='32' />
+            <column datatype='real' name='Patients who have waited 12+ hrs from DTA to admission' ordinal='33' />
+            <column datatype='real' name='Emergency admissions via A&amp;E - Type 1' ordinal='34' />
+            <column datatype='real' name='Admin' ordinal='35' />
+            <column datatype='real' name='Ambulance' ordinal='36' />
+            <column datatype='real' name='Medical' ordinal='37' />
+            <column datatype='real' name='Nursing' ordinal='38' />
+            <column datatype='real' name='ST&amp;T' ordinal='39' />
+            <column datatype='real' name='Support' ordinal='40' />
+            <column datatype='real' name='Total' ordinal='41' />
+            <column datatype='real' name='DMA_Average' ordinal='42' />
+            <column datatype='real' name='RTT_Backlog_Ratio' ordinal='43' />
+            <column datatype='real' name='RTT_65w_Ratio' ordinal='44' />
+            <column datatype='real' name='RTT_78w_Ratio' ordinal='45' />
+            <column datatype='real' name='RTT_104w_Ratio' ordinal='46' />
+            <column datatype='real' name='OPA_DNA_Rate' ordinal='47' />
+            <column datatype='real' name='OPA_Cancelled_Rate' ordinal='48' />
+            <column datatype='real' name='DM01_6Week_Rate' ordinal='49' />
+            <column datatype='real' name='DM01_13Week_Rate' ordinal='50' />
+            <column datatype='real' name='AE_4hr_Breach_Rate' ordinal='51' />
+            <column datatype='real' name='AE_12hr_Breach_Rate' ordinal='52' />
+            <column datatype='real' name='Workforce_Clinical' ordinal='53' />
+            <column datatype='real' name='Workforce_Clinical_Ratio' ordinal='54' />
+            <column datatype='real' name='Workforce_Admin_Ratio' ordinal='55' />
+            <column datatype='real' name='Norm_DMA' ordinal='56' />
+            <column datatype='real' name='Norm_RTT' ordinal='57' />
+            <column datatype='real' name='Norm_DM01' ordinal='58' />
+            <column datatype='real' name='Norm_AE' ordinal='59' />
+            <column datatype='real' name='Norm_Workforce' ordinal='60' />
+            <column datatype='real' name='EPR_Readiness' ordinal='61' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IE&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Org Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Org Code]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Org Code</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Org Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Org Name]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Org Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Unnamed: 0]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Unnamed: 0</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ICS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ICS]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>ICS</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TrustName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TrustName]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>TrustName</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Care Setting</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Care Setting]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Care Setting</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pillar_WellLed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pillar_WellLed]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Pillar_WellLed</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pillar_SmartFoundations</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pillar_SmartFoundations]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Pillar_SmartFoundations</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pillar_SafePractice</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pillar_SafePractice]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Pillar_SafePractice</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pillar_Workforce</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pillar_Workforce]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Pillar_Workforce</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pillar_EmpowerPeople</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pillar_EmpowerPeople]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Pillar_EmpowerPeople</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pillar_ImproveCare</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pillar_ImproveCare]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Pillar_ImproveCare</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pillar_HealthyPopulations</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pillar_HealthyPopulations]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Pillar_HealthyPopulations</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Org Name_x</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Org Name_x]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Org Name_x</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Org Name_y</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Org Name_y]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Org Name_y</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Waiting_List</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total_Waiting_List]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Total_Waiting_List</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WL_52w</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WL_52w]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>WL_52w</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WL_65w</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WL_65w]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>WL_65w</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WL_78w</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WL_78w]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>WL_78w</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WL_104w</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WL_104w]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>WL_104w</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Attended</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total_Attended]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Total_Attended</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_DNA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total_DNA]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Total_DNA</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Cancelled_Patient</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total_Cancelled_Patient]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Total_Cancelled_Patient</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Cancelled_Hospital</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total_Cancelled_Hospital]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Total_Cancelled_Hospital</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Appointments</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total_Appointments]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Total_Appointments</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Waiting List</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Waiting List]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Total Waiting List</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number waiting 6+ Weeks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Number waiting 6+ Weeks]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Number waiting 6+ Weeks</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number waiting 13+ Weeks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Number waiting 13+ Weeks]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Number waiting 13+ Weeks</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percentage waiting 6+ weeks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percentage waiting 6+ weeks]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Percentage waiting 6+ weeks</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A&amp;E attendances Type 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[A&amp;E attendances Type 1]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>A&amp;E attendances Type 1</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Attendances over 4hrs Type 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Attendances over 4hrs Type 1]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Attendances over 4hrs Type 1</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patients who have waited 4-12 hs from DTA to admission</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Patients who have waited 4-12 hs from DTA to admission]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Patients who have waited 4-12 hs from DTA to admission</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patients who have waited 12+ hrs from DTA to admission</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Patients who have waited 12+ hrs from DTA to admission]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Patients who have waited 12+ hrs from DTA to admission</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Emergency admissions via A&amp;E - Type 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Emergency admissions via A&amp;E - Type 1]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Emergency admissions via A&amp;E - Type 1</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Admin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Admin]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Admin</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ambulance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ambulance]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Ambulance</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medical</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Medical]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Medical</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nursing</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Nursing]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Nursing</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ST&amp;T</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ST&amp;T]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>ST&amp;T</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Support</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Support]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Support</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Total</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DMA_Average</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DMA_Average]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>DMA_Average</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RTT_Backlog_Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RTT_Backlog_Ratio]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>RTT_Backlog_Ratio</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RTT_65w_Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RTT_65w_Ratio]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>RTT_65w_Ratio</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RTT_78w_Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RTT_78w_Ratio]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>RTT_78w_Ratio</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RTT_104w_Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RTT_104w_Ratio]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>RTT_104w_Ratio</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OPA_DNA_Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OPA_DNA_Rate]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>OPA_DNA_Rate</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OPA_Cancelled_Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OPA_Cancelled_Rate]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>OPA_Cancelled_Rate</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DM01_6Week_Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DM01_6Week_Rate]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>DM01_6Week_Rate</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DM01_13Week_Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DM01_13Week_Rate]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>DM01_13Week_Rate</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AE_4hr_Breach_Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AE_4hr_Breach_Rate]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>AE_4hr_Breach_Rate</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AE_12hr_Breach_Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AE_12hr_Breach_Rate]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>AE_12hr_Breach_Rate</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Workforce_Clinical</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Workforce_Clinical]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Workforce_Clinical</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Workforce_Clinical_Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Workforce_Clinical_Ratio]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Workforce_Clinical_Ratio</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Workforce_Admin_Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Workforce_Admin_Ratio]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Workforce_Admin_Ratio</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Norm_DMA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Norm_DMA]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Norm_DMA</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Norm_RTT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Norm_RTT]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Norm_RTT</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Norm_DM01</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Norm_DM01]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Norm_DM01</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Norm_AE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Norm_AE]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Norm_AE</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Norm_Workforce</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Norm_Workforce]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>Norm_Workforce</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EPR_Readiness</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[EPR_Readiness]</local-name>
+            <parent-name>[master_trust_dataset_engineered.csv]</parent-name>
+            <remote-alias>EPR_Readiness</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_EmpowerPeople:qk]&quot;' value='Empower People' />
+          <alias key='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_HealthyPopulations:qk]&quot;' value='Healthy Populations' />
+          <alias key='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_ImproveCare:qk]&quot;' value='Improve Care' />
+          <alias key='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_SafePractice:qk]&quot;' value='Safe Practice' />
+          <alias key='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_SmartFoundations:qk]&quot;' value='Smart Foundations' />
+          <alias key='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_WellLed:qk]&quot;' value='Well Led' />
+          <alias key='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_Workforce:qk]&quot;' value='Workforce' />
+          <alias key='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[sum:Pillar_EmpowerPeople:qk]&quot;' value='Sum Empower People' />
+          <alias key='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[sum:Pillar_HealthyPopulations:qk]&quot;' value='Sum Healthy Populations' />
+          <alias key='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[sum:Pillar_ImproveCare:qk]&quot;' value='Sum Improve Care' />
+          <alias key='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[sum:Pillar_SafePractice:qk]&quot;' value='Sum Safe Practice' />
+          <alias key='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[sum:Pillar_SmartFoundations:qk]&quot;' value='Sum Smart Foundations' />
+          <alias key='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[sum:Pillar_WellLed:qk]&quot;' value='Sum Well Led' />
+          <alias key='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[sum:Pillar_Workforce:qk]&quot;' value='Sum Workforce' />
+        </aliases>
+      </column>
+      <column caption='AE 12hr Breach Rate' datatype='real' name='[AE_12hr_Breach_Rate]' role='measure' type='quantitative' />
+      <column caption='AE 4hr Breach Rate' datatype='real' name='[AE_4hr_Breach_Rate]' role='measure' type='quantitative' />
+      <column caption='Short Org Name' datatype='string' name='[Calculation_5842734421934080]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='REPLACE(&#10;    REPLACE(&#10;        REPLACE([Org Name],&#10;            &quot;NHS FOUNDATION TRUST&quot;, &quot;&quot;),&#10;        &quot;NHS TRUST&quot;, &quot;&quot;),&#10;    &quot;TEACHING HOSPITALS&quot;, &quot;&quot;)' />
+      </column>
+      <column caption='DM01 13Week Rate' datatype='real' name='[DM01_13Week_Rate]' role='measure' type='quantitative' />
+      <column caption='DM01 6Week Rate' datatype='real' name='[DM01_6Week_Rate]' role='measure' type='quantitative' />
+      <column caption='DMA Average' datatype='real' name='[DMA_Average]' role='measure' type='quantitative' />
+      <column caption='EPR Readiness' datatype='real' name='[EPR_Readiness]' role='measure' type='quantitative' />
+      <column caption='Norm AE' datatype='real' name='[Norm_AE]' role='measure' type='quantitative' />
+      <column caption='Norm DM01' datatype='real' name='[Norm_DM01]' role='measure' type='quantitative' />
+      <column caption='Norm DMA' datatype='real' name='[Norm_DMA]' role='measure' type='quantitative' />
+      <column caption='Norm RTT' datatype='real' name='[Norm_RTT]' role='measure' type='quantitative' />
+      <column caption='Norm Workforce' datatype='real' name='[Norm_Workforce]' role='measure' type='quantitative' />
+      <column caption='OPA Cancelled Rate' datatype='real' name='[OPA_Cancelled_Rate]' role='measure' type='quantitative' />
+      <column caption='OPA DNA Rate' datatype='real' name='[OPA_DNA_Rate]' role='measure' type='quantitative' />
+      <column caption='Org Name x' datatype='string' name='[Org Name_x]' role='dimension' type='nominal' />
+      <column caption='Org Name y' datatype='string' name='[Org Name_y]' role='dimension' type='nominal' />
+      <column caption='Pillar EmpowerPeople' datatype='real' name='[Pillar_EmpowerPeople]' role='measure' type='quantitative' />
+      <column caption='Pillar HealthyPopulations' datatype='real' name='[Pillar_HealthyPopulations]' role='measure' type='quantitative' />
+      <column caption='Pillar ImproveCare' datatype='real' name='[Pillar_ImproveCare]' role='measure' type='quantitative' />
+      <column caption='Pillar SafePractice' datatype='real' name='[Pillar_SafePractice]' role='measure' type='quantitative' />
+      <column caption='Pillar SmartFoundations' datatype='real' name='[Pillar_SmartFoundations]' role='measure' type='quantitative' />
+      <column caption='Pillar WellLed' datatype='real' name='[Pillar_WellLed]' role='measure' type='quantitative' />
+      <column caption='Pillar Workforce' datatype='real' name='[Pillar_Workforce]' role='measure' type='quantitative' />
+      <column caption='RTT 65w Ratio' datatype='real' name='[RTT_65w_Ratio]' role='measure' type='quantitative' />
+      <column caption='RTT 78w Ratio' datatype='real' name='[RTT_78w_Ratio]' role='measure' type='quantitative' />
+      <column caption='RTT Backlog Ratio' datatype='real' name='[RTT_Backlog_Ratio]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+      <column caption='St&amp;T' datatype='real' name='[ST&amp;T]' role='measure' type='quantitative' />
+      <column caption='Total Appointments' datatype='real' name='[Total_Appointments]' role='measure' type='quantitative' />
+      <column caption='Total Attended' datatype='real' name='[Total_Attended]' role='measure' type='quantitative' />
+      <column caption='Total Cancelled Hospital' datatype='real' name='[Total_Cancelled_Hospital]' role='measure' type='quantitative' />
+      <column caption='Total Cancelled Patient' datatype='real' name='[Total_Cancelled_Patient]' role='measure' type='quantitative' />
+      <column caption='Total DNA' datatype='real' name='[Total_DNA]' role='measure' type='quantitative' />
+      <column caption='Total Waiting List1' datatype='real' name='[Total_Waiting_List]' role='measure' type='quantitative' />
+      <column caption='Trust Name' datatype='string' name='[TrustName]' role='dimension' type='nominal' />
+      <column caption='WL 104w' datatype='real' name='[WL_104w]' role='measure' type='quantitative' />
+      <column caption='WL 52w' datatype='real' name='[WL_52w]' role='measure' type='quantitative' />
+      <column caption='WL 65w' datatype='real' name='[WL_65w]' role='measure' type='quantitative' />
+      <column caption='WL 78w' datatype='real' name='[WL_78w]' role='measure' type='quantitative' />
+      <column caption='Workforce Admin Ratio' datatype='real' name='[Workforce_Admin_Ratio]' role='measure' type='quantitative' />
+      <column caption='Workforce Clinical' datatype='real' name='[Workforce_Clinical]' role='measure' type='quantitative' />
+      <column caption='Workforce Clinical Ratio' datatype='real' name='[Workforce_Clinical_Ratio]' role='measure' type='quantitative' />
+      <column caption='master_trust_dataset_engineered.csv' datatype='table' name='[__tableau_internal_object_id__].[master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB]' role='measure' type='quantitative' />
+      <column-instance column='[Pillar_EmpowerPeople]' derivation='Avg' name='[avg:Pillar_EmpowerPeople:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pillar_HealthyPopulations]' derivation='Avg' name='[avg:Pillar_HealthyPopulations:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pillar_ImproveCare]' derivation='Avg' name='[avg:Pillar_ImproveCare:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pillar_SafePractice]' derivation='Avg' name='[avg:Pillar_SafePractice:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pillar_SmartFoundations]' derivation='Avg' name='[avg:Pillar_SmartFoundations:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pillar_WellLed]' derivation='Avg' name='[avg:Pillar_WellLed:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pillar_Workforce]' derivation='Avg' name='[avg:Pillar_Workforce:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Pillar_EmpowerPeople]' derivation='Sum' name='[sum:Pillar_EmpowerPeople:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pillar_HealthyPopulations]' derivation='Sum' name='[sum:Pillar_HealthyPopulations:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pillar_ImproveCare]' derivation='Sum' name='[sum:Pillar_ImproveCare:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pillar_SafePractice]' derivation='Sum' name='[sum:Pillar_SafePractice:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pillar_SmartFoundations]' derivation='Sum' name='[sum:Pillar_SmartFoundations:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pillar_WellLed]' derivation='Sum' name='[sum:Pillar_WellLed:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pillar_Workforce]' derivation='Sum' name='[sum:Pillar_Workforce:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Region:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;EAST OF ENGLAND&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;NORTH WEST&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;NORTH EAST AND YORKSHIRE&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SOUTH WEST&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;MIDLANDS&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;SOUTH EAST&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;LONDON&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Ireland&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='master_trust_dataset_engineered.csv' id='master_trust_dataset_engineered.csv_6ACB95FF117F4BF5B604E74B888AC3AB'>
+            <properties context=''>
+              <relation connection='textscan.0wuxe7n132gxfu17ajhra067pvnu' name='master_trust_dataset_engineered.csv' table='[master_trust_dataset_engineered#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IE' separator=','>
+                  <column datatype='string' name='Org Code' ordinal='0' />
+                  <column datatype='string' name='Org Name' ordinal='1' />
+                  <column datatype='string' name='Unnamed: 0' ordinal='2' />
+                  <column datatype='string' name='Region' ordinal='3' />
+                  <column datatype='string' name='ICS' ordinal='4' />
+                  <column datatype='string' name='TrustName' ordinal='5' />
+                  <column datatype='string' name='Care Setting' ordinal='6' />
+                  <column datatype='real' name='Pillar_WellLed' ordinal='7' />
+                  <column datatype='real' name='Pillar_SmartFoundations' ordinal='8' />
+                  <column datatype='real' name='Pillar_SafePractice' ordinal='9' />
+                  <column datatype='real' name='Pillar_Workforce' ordinal='10' />
+                  <column datatype='real' name='Pillar_EmpowerPeople' ordinal='11' />
+                  <column datatype='real' name='Pillar_ImproveCare' ordinal='12' />
+                  <column datatype='real' name='Pillar_HealthyPopulations' ordinal='13' />
+                  <column datatype='string' name='Org Name_x' ordinal='14' />
+                  <column datatype='string' name='Org Name_y' ordinal='15' />
+                  <column datatype='real' name='Total_Waiting_List' ordinal='16' />
+                  <column datatype='real' name='WL_52w' ordinal='17' />
+                  <column datatype='real' name='WL_65w' ordinal='18' />
+                  <column datatype='real' name='WL_78w' ordinal='19' />
+                  <column datatype='real' name='WL_104w' ordinal='20' />
+                  <column datatype='real' name='Total_Attended' ordinal='21' />
+                  <column datatype='real' name='Total_DNA' ordinal='22' />
+                  <column datatype='real' name='Total_Cancelled_Patient' ordinal='23' />
+                  <column datatype='real' name='Total_Cancelled_Hospital' ordinal='24' />
+                  <column datatype='real' name='Total_Appointments' ordinal='25' />
+                  <column datatype='real' name='Total Waiting List' ordinal='26' />
+                  <column datatype='real' name='Number waiting 6+ Weeks' ordinal='27' />
+                  <column datatype='real' name='Number waiting 13+ Weeks' ordinal='28' />
+                  <column datatype='real' name='Percentage waiting 6+ weeks' ordinal='29' />
+                  <column datatype='real' name='A&amp;E attendances Type 1' ordinal='30' />
+                  <column datatype='real' name='Attendances over 4hrs Type 1' ordinal='31' />
+                  <column datatype='real' name='Patients who have waited 4-12 hs from DTA to admission' ordinal='32' />
+                  <column datatype='real' name='Patients who have waited 12+ hrs from DTA to admission' ordinal='33' />
+                  <column datatype='real' name='Emergency admissions via A&amp;E - Type 1' ordinal='34' />
+                  <column datatype='real' name='Admin' ordinal='35' />
+                  <column datatype='real' name='Ambulance' ordinal='36' />
+                  <column datatype='real' name='Medical' ordinal='37' />
+                  <column datatype='real' name='Nursing' ordinal='38' />
+                  <column datatype='real' name='ST&amp;T' ordinal='39' />
+                  <column datatype='real' name='Support' ordinal='40' />
+                  <column datatype='real' name='Total' ordinal='41' />
+                  <column datatype='real' name='DMA_Average' ordinal='42' />
+                  <column datatype='real' name='RTT_Backlog_Ratio' ordinal='43' />
+                  <column datatype='real' name='RTT_65w_Ratio' ordinal='44' />
+                  <column datatype='real' name='RTT_78w_Ratio' ordinal='45' />
+                  <column datatype='real' name='RTT_104w_Ratio' ordinal='46' />
+                  <column datatype='real' name='OPA_DNA_Rate' ordinal='47' />
+                  <column datatype='real' name='OPA_Cancelled_Rate' ordinal='48' />
+                  <column datatype='real' name='DM01_6Week_Rate' ordinal='49' />
+                  <column datatype='real' name='DM01_13Week_Rate' ordinal='50' />
+                  <column datatype='real' name='AE_4hr_Breach_Rate' ordinal='51' />
+                  <column datatype='real' name='AE_12hr_Breach_Rate' ordinal='52' />
+                  <column datatype='real' name='Workforce_Clinical' ordinal='53' />
+                  <column datatype='real' name='Workforce_Clinical_Ratio' ordinal='54' />
+                  <column datatype='real' name='Workforce_Admin_Ratio' ordinal='55' />
+                  <column datatype='real' name='Norm_DMA' ordinal='56' />
+                  <column datatype='real' name='Norm_RTT' ordinal='57' />
+                  <column datatype='real' name='Norm_DM01' ordinal='58' />
+                  <column datatype='real' name='Norm_AE' ordinal='59' />
+                  <column datatype='real' name='Norm_Workforce' ordinal='60' />
+                  <column datatype='real' name='EPR_Readiness' ordinal='61' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='DMA Pillar Profile'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Arial' fontsize='12'>Digital Maturity Pillar Profile</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run bold='true' fontalignment='1' fontname='Arial' fontsize='10'>Comparing strengths and weaknesses across the 7 DMA domains</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='master_trust_dataset_engineered' name='federated.0pn7pf014dpxlh14loybc1hkbmwl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pn7pf014dpxlh14loybc1hkbmwl'>
+            <column caption='Pillar EmpowerPeople' datatype='real' name='[Pillar_EmpowerPeople]' role='measure' type='quantitative' />
+            <column caption='Pillar HealthyPopulations' datatype='real' name='[Pillar_HealthyPopulations]' role='measure' type='quantitative' />
+            <column caption='Pillar ImproveCare' datatype='real' name='[Pillar_ImproveCare]' role='measure' type='quantitative' />
+            <column caption='Pillar SafePractice' datatype='real' name='[Pillar_SafePractice]' role='measure' type='quantitative' />
+            <column caption='Pillar SmartFoundations' datatype='real' name='[Pillar_SmartFoundations]' role='measure' type='quantitative' />
+            <column caption='Pillar WellLed' datatype='real' name='[Pillar_WellLed]' role='measure' type='quantitative' />
+            <column caption='Pillar Workforce' datatype='real' name='[Pillar_Workforce]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column-instance column='[Pillar_EmpowerPeople]' derivation='Avg' name='[avg:Pillar_EmpowerPeople:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pillar_HealthyPopulations]' derivation='Avg' name='[avg:Pillar_HealthyPopulations:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pillar_ImproveCare]' derivation='Avg' name='[avg:Pillar_ImproveCare:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pillar_SafePractice]' derivation='Avg' name='[avg:Pillar_SafePractice:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pillar_SmartFoundations]' derivation='Avg' name='[avg:Pillar_SmartFoundations:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pillar_WellLed]' derivation='Avg' name='[avg:Pillar_WellLed:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pillar_Workforce]' derivation='Avg' name='[avg:Pillar_Workforce:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_WellLed:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_SmartFoundations:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_Workforce:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_ImproveCare:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_SafePractice:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_HealthyPopulations:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_EmpowerPeople:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_WellLed:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_SmartFoundations:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_Workforce:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_ImproveCare:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_SafePractice:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_HealthyPopulations:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_EmpowerPeople:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Region:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Region:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[:Measure Names]</column>
+            <column>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Region:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[Multiple Values]' scope='cols' value='Average DMA Pillar Score' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_EmpowerPeople:qk]' value='n#,##0.0;-#,##0.0' />
+            <format attr='text-format' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_HealthyPopulations:qk]' value='n#,##0.0;-#,##0.0' />
+            <format attr='text-format' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_ImproveCare:qk]' value='n#,##0.0;-#,##0.0' />
+            <format attr='text-format' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_SafePractice:qk]' value='n#,##0.0;-#,##0.0' />
+            <format attr='text-format' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_SmartFoundations:qk]' value='n#,##0.0;-#,##0.0' />
+            <format attr='text-format' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_WellLed:qk]' value='n#,##0.0;-#,##0.0' />
+            <format attr='text-format' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Pillar_Workforce:qk]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[Multiple Values]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[:Measure Names]</rows>
+        <cols>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{4453008B-8BB0-4E60-9F47-64A99FF03932}' />
+    </worksheet>
+    <worksheet name='DMA vs RTT'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Arial' fontsize='12'>Digital Maturity vs RTT Backlog</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run bold='true' fontalignment='1' fontname='Arial' fontsize='10'>Exploring how digital capability influences operational performance via referral to treatment time (RTT) waiting lists</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='master_trust_dataset_engineered' name='federated.0pn7pf014dpxlh14loybc1hkbmwl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pn7pf014dpxlh14loybc1hkbmwl'>
+            <column caption='DMA Average' datatype='real' name='[DMA_Average]' role='measure' type='quantitative' />
+            <column caption='EPR Readiness' datatype='real' name='[EPR_Readiness]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Org Name]' role='dimension' type='nominal' />
+            <column caption='RTT Backlog Ratio' datatype='real' name='[RTT_Backlog_Ratio]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column-instance column='[DMA_Average]' derivation='Avg' name='[avg:DMA_Average:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[EPR_Readiness]' derivation='Avg' name='[avg:EPR_Readiness:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[RTT_Backlog_Ratio]' derivation='Avg' name='[avg:RTT_Backlog_Ratio:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Org Name]' derivation='None' name='[none:Org Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Region:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Region:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Region:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:DMA_Average:qk]' scope='cols' value='Digital Maturity (DMA Average)' />
+            <format attr='title' class='0' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:RTT_Backlog_Ratio:qk]' scope='rows' value='52-Week Waits (% of RTT Waiting List) ' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:DMA_Average:qk]' field-type='quantitative' scope='cols' type='space' />
+            <format attr='height' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:DMA_Average:qk]' value='54' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:RTT_Backlog_Ratio:qk]' value='' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]' palette='red_green_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]' />
+              <lod column='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Org Name:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:RTT_Backlog_Ratio:qk]</rows>
+        <cols>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:DMA_Average:qk]</cols>
+      </table>
+      <simple-id uuid='{D46BEA82-74B5-42E3-B050-902B136610AE}' />
+    </worksheet>
+    <worksheet name='Trust Readiness Ranking'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Arial' fontsize='12'>EPR Readiness Across NHS Acute Trusts</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run bold='true' fontalignment='1' fontname='Arial' fontsize='10'>Readiness levels for implementing electronic patient records</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='master_trust_dataset_engineered' name='federated.0pn7pf014dpxlh14loybc1hkbmwl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pn7pf014dpxlh14loybc1hkbmwl'>
+            <column caption='Short Org Name' datatype='string' name='[Calculation_5842734421934080]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='REPLACE(&#10;    REPLACE(&#10;        REPLACE([Org Name],&#10;            &quot;NHS FOUNDATION TRUST&quot;, &quot;&quot;),&#10;        &quot;NHS TRUST&quot;, &quot;&quot;),&#10;    &quot;TEACHING HOSPITALS&quot;, &quot;&quot;)' />
+            </column>
+            <column caption='EPR Readiness' datatype='real' name='[EPR_Readiness]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Org Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column-instance column='[EPR_Readiness]' derivation='Avg' name='[avg:EPR_Readiness:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_5842734421934080]' derivation='None' name='[none:Calculation_5842734421934080:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Org Name]' derivation='None' name='[none:Org Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[EPR_Readiness]' derivation='Sum' name='[sum:EPR_Readiness:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Org Name:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Org Name:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Org Name:nk]' member='&quot;GREAT ORMOND STREET HOSPITAL FOR CHILDREN NHS FOUNDATION TRUST&quot;' />
+                <groupfilter function='member' level='[none:Org Name:nk]' member='&quot;LIVERPOOL HEART AND CHEST HOSPITAL NHS FOUNDATION TRUST&quot;' />
+                <groupfilter function='member' level='[none:Org Name:nk]' member='&quot;LIVERPOOL WOMEN&apos;S NHS FOUNDATION TRUST&quot;' />
+                <groupfilter function='member' level='[none:Org Name:nk]' member='&quot;MOORFIELDS EYE HOSPITAL NHS FOUNDATION TRUST&quot;' />
+                <groupfilter function='member' level='[none:Org Name:nk]' member='&quot;QUEEN VICTORIA HOSPITAL NHS FOUNDATION TRUST&quot;' />
+                <groupfilter function='member' level='[none:Org Name:nk]' member='&quot;ROYAL NATIONAL ORTHOPAEDIC HOSPITAL NHS TRUST&quot;' />
+                <groupfilter function='member' level='[none:Org Name:nk]' member='&quot;ROYAL PAPWORTH HOSPITAL NHS FOUNDATION TRUST&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Region:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Region:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Calculation_5842734421934080:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Region:nk]</column>
+            <column>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Org Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]' scope='cols' value='EPR Readiness (0-100)' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[sum:EPR_Readiness:qk]' value='n#,##0.0;-#,##0.0' />
+            <format attr='text-align' value='right' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Org Name:nk]' value='248' />
+            <format attr='width' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Calculation_5842734421934080:nk]' value='268' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Org Name:nk]' value='8' />
+            <format attr='text-align' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Org Name:nk]' value='left' />
+            <format attr='text-align' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Calculation_5842734421934080:nk]' value='left' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[sum:EPR_Readiness:qk]' palette='red_green_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[sum:EPR_Readiness:qk]' />
+              <text column='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[sum:EPR_Readiness:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Calculation_5842734421934080:nk]</rows>
+        <cols>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]</cols>
+      </table>
+      <simple-id uuid='{77971199-D618-4664-B4D6-A605BEEF8B7D}' />
+    </worksheet>
+    <worksheet name='Workforce vs EPR Readiness'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Arial' fontsize='12'>Workforce vs Digital Readiness</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run bold='true' fontalignment='1' fontname='Arial' fontsize='10'>Exploring whether clinical staffing mix influences digital capability</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='master_trust_dataset_engineered' name='federated.0pn7pf014dpxlh14loybc1hkbmwl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pn7pf014dpxlh14loybc1hkbmwl'>
+            <column caption='EPR Readiness' datatype='real' name='[EPR_Readiness]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column caption='Workforce Clinical Ratio' datatype='real' name='[Workforce_Clinical_Ratio]' role='measure' type='quantitative' />
+            <column-instance column='[EPR_Readiness]' derivation='Avg' name='[avg:EPR_Readiness:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Workforce_Clinical_Ratio]' derivation='Avg' name='[avg:Workforce_Clinical_Ratio:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Workforce_Clinical_Ratio:qk]' scope='cols' value='Clinical Workforce Ratio (%)' />
+            <format attr='title' class='0' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]' scope='rows' value='EPR Readiness (0-100)' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Workforce_Clinical_Ratio:qk]' field-type='quantitative' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Workforce_Clinical_Ratio:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]' palette='red_green_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]' />
+              <text column='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Region:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='180' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]</rows>
+        <cols>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Workforce_Clinical_Ratio:qk]</cols>
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Workforce_Clinical_Ratio:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]</field>
+                  <field>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Workforce_Clinical_Ratio:qk]</field>
+                  <field>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Region:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>45.390223750127554</value>
+                <value>0.41462609635407577</value>
+                <value>&quot;SOUTH WEST&quot;</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='8' y='-18' />
+          </mark-label>
+          <mark-label id='1'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Workforce_Clinical_Ratio:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]</field>
+                  <field>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:Workforce_Clinical_Ratio:qk]</field>
+                  <field>[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Region:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>53.28206675730658</value>
+                <value>0.44198051809658517</value>
+                <value>&quot;SOUTH EAST&quot;</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='34' y='4' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{C5AB9B26-F1CF-4E75-A1AE-649CD8B08346}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='NHS Digital Transformation Analysis'>
+      <style />
+      <size maxheight='900' maxwidth='1300' minheight='900' minwidth='1300' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='master_trust_dataset_engineered' name='federated.0pn7pf014dpxlh14loybc1hkbmwl' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0pn7pf014dpxlh14loybc1hkbmwl'>
+        <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+        <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98888' id='9' param='horz' type-v2='layout-flow' w='99230' x='385' y='556'>
+            <zone h='98888' id='5' param='vert' type-v2='layout-flow' w='99230' x='385' y='556'>
+              <zone fixed-size='46' h='5111' id='23' is-fixed='true' param='horz' type-v2='layout-flow' w='99230' x='385' y='556' />
+              <zone h='93777' id='6' type-v2='layout-basic' w='99230' x='385' y='5667'>
+                <zone h='48753' id='7' name='Trust Readiness Ranking' w='49615' x='385' y='5667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='10' />
+                    <format attr='padding' value='10' />
+                  </zone-style>
+                </zone>
+                <zone h='45024' id='12' name='DMA vs RTT' w='49615' x='385' y='54420'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='10' />
+                    <format attr='padding' value='10' />
+                  </zone-style>
+                </zone>
+                <zone h='32283' id='15' name='DMA Pillar Profile' w='49615' x='50000' y='22137'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='10' />
+                    <format attr='padding' value='10' />
+                  </zone-style>
+                </zone>
+                <zone h='45024' id='18' name='Workforce vs EPR Readiness' w='49615' x='50000' y='54420'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='10' />
+                    <format attr='padding' value='10' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='16470' id='26' type-v2='text' w='49615' x='50000' y='5667'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#003087' fontname='Arial' fontsize='8'>Key Findings</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='8'>• Digital readiness varies widely</run>
+                    <run fontcolor='#003087' fontname='Arial' fontsize='8'> across NHS acute trusts, with some highly prepared for EPR adoption and others significantly behind.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='8'>• Higher digital maturity is generally linked to better RTT performance</run>
+                    <run fontcolor='#003087' fontname='Arial' fontsize='8'>, suggesting digitally capable trusts may manage long waits more effectively.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='8'>• Leadership and digital foundations are the strongest DMA pillars</run>
+                    <run fontcolor='#003087' fontname='Arial' fontsize='8'>, while </run>
+                    <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='8'>patient empowerment and population health</run>
+                    <run fontcolor='#003087' fontname='Arial' fontsize='8'> are the weakest areas nationally.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='8'>• Trusts with a stronger clinical workforce mix tend to show higher digital readiness</run>
+                    <run fontcolor='#003087' fontname='Arial' fontsize='8'>, highlighting the role of clinical staff in driving digital adoption.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='8'>• </run>
+                    <run fontcolor='#003087' fontname='Arial' fontsize='8'>Overall, the dashboard shows how </run>
+                    <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='8'>digital capability, workforce composition, and operational pressure interact</run>
+                    <run fontcolor='#003087' fontname='Arial' fontsize='8'>, helping identify where targeted support or investment may be needed.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='5' />
+          </zone-style>
+        </zone>
+        <zone fixed-size='160' h='5667' id='8' is-fixed='true' layout-strategy-id='distribute-evenly' param='vert' type-v2='layout-flow' w='35462' x='64385' y='0'>
+          <zone h='5667' id='13' mode='checkdropdown' name='DMA vs RTT' param='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Region:nk]' type-v2='filter' w='35461' x='64385' y='0'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+        <zone forceUpdate='true' h='6667' id='24' type-v2='text' w='64231' x='0' y='0'>
+          <formatted-text>
+            <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='18'>NHS Acute Trust Digital Maturity &amp; Operational Performance Dashboard</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='14'>Exploring readiness, digital capability, workforce mix, and RTT performance</run>
+          </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='4' />
+          </zone-style>
+        </zone>
+        <zone h='8444' id='25' name='DMA vs RTT' pane-specification-id='2' param='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]' type-v2='color' w='10769' x='38000' y='62889' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='32' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='31' param='vert' type-v2='layout-flow' w='98770' x='615' y='889'>
+                <zone forceUpdate='true' h='6667' id='24' type-v2='text' w='64231' x='0' y='0'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='18'>NHS Acute Trust Digital Maturity &amp; Operational Performance Dashboard</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='14'>Exploring readiness, digital capability, workforce mix, and RTT performance</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48753' id='7' is-fixed='true' name='Trust Readiness Ranking' w='49615' x='385' y='5667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='16470' id='26' type-v2='text' w='49615' x='50000' y='5667'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#003087' fontname='Arial' fontsize='8'>Key Findings</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='8'>• Digital readiness varies widely</run>
+                    <run fontcolor='#003087' fontname='Arial' fontsize='8'> across NHS acute trusts, with some highly prepared for EPR adoption and others significantly behind.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='8'>• Higher digital maturity is generally linked to better RTT performance</run>
+                    <run fontcolor='#003087' fontname='Arial' fontsize='8'>, suggesting digitally capable trusts may manage long waits more effectively.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='8'>• Leadership and digital foundations are the strongest DMA pillars</run>
+                    <run fontcolor='#003087' fontname='Arial' fontsize='8'>, while </run>
+                    <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='8'>patient empowerment and population health</run>
+                    <run fontcolor='#003087' fontname='Arial' fontsize='8'> are the weakest areas nationally.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='8'>• Trusts with a stronger clinical workforce mix tend to show higher digital readiness</run>
+                    <run fontcolor='#003087' fontname='Arial' fontsize='8'>, highlighting the role of clinical staff in driving digital adoption.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='8'>• </run>
+                    <run fontcolor='#003087' fontname='Arial' fontsize='8'>Overall, the dashboard shows how </run>
+                    <run bold='true' fontcolor='#003087' fontname='Arial' fontsize='8'>digital capability, workforce composition, and operational pressure interact</run>
+                    <run fontcolor='#003087' fontname='Arial' fontsize='8'>, helping identify where targeted support or investment may be needed.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='249' h='32283' id='15' is-fixed='true' name='DMA Pillar Profile' w='49615' x='50000' y='22137'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5667' id='13' mode='checkdropdown' name='DMA vs RTT' param='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Region:nk]' type-v2='filter' w='35461' x='64385' y='0'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45024' id='12' is-fixed='true' name='DMA vs RTT' w='49615' x='385' y='54420'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8444' id='25' name='DMA vs RTT' pane-specification-id='2' param='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]' type-v2='color' w='10769' x='38000' y='62889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45024' id='18' is-fixed='true' name='Workforce vs EPR Readiness' w='49615' x='50000' y='54420'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='5' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0C067C70-540B-4FC3-8A49-4979C0BB613A}' />
+    </dashboard>
+  </dashboards>
+  <windows pres-mode='true' source-height='30'>
+    <window class='worksheet' name='Trust Readiness Ranking'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Region:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[sum:EPR_Readiness:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6208506C-8911-4F91-BD28-41AB98FE09F7}' />
+    </window>
+    <window class='worksheet' name='DMA vs RTT'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[none:Region:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D968BBB4-DED7-4C8A-AEF1-C97300687CC5}' />
+    </window>
+    <window class='worksheet' name='DMA Pillar Profile'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[:Measure Names]' show-morefewerbutton='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[Multiple Values]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6A989751-FDA3-4CE6-B5A9-9BCB1D540120}' />
+    </window>
+    <window class='worksheet' name='Workforce vs EPR Readiness'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0pn7pf014dpxlh14loybc1hkbmwl].[avg:EPR_Readiness:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{48A4444B-BA57-4480-B2EB-5FF45576849B}' />
+    </window>
+    <window class='dashboard' maximized='true' name='NHS Digital Transformation Analysis'>
+      <viewpoints>
+        <viewpoint name='DMA Pillar Profile' />
+        <viewpoint name='DMA vs RTT'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Trust Readiness Ranking' />
+        <viewpoint name='Workforce vs EPR Readiness'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='13' />
+      <simple-id uuid='{53FA1129-AF4B-41BD-A2C8-437972833922}' />
+    </window>
+  </windows>
+</workbook>
